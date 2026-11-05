@@ -1,0 +1,1642 @@
+categoria,titulo,proposito,como_usar,prompt,notas
+Análisis y síntesis,Asistente para análisis temático de datos cualitativos,"Este prompt apoya el proceso de análisis temático de datos cualitativos (entrevistas, grupos focales, diarios, observaciones). Puede asistir en la codificación inicial, la organización de códigos en categorías y temas, y la generación de la estructura temática. Está orientado a investigación en Terapia Ocupacional con perspectiva centrada en la ocupación y en la experiencia de los participantes.","Puedes usar este prompt en diferentes fases del análisis temático. Indica en qué fase te encuentras y proporciona el material correspondiente (fragmentos de transcripción, listado de códigos, categorías preliminares...).","Actúa como un investigador cualitativo experto en análisis temático en ciencias de la salud y Terapia Ocupacional.
+
+Te facilito el siguiente fragmento de transcripción (entrevista / grupo focal / diario...) de mi investigación cualitativa:
+
+PREGUNTA DE INVESTIGACIÓN:
+[Escribe aquí tu pregunta de investigación]
+
+CONTEXTO DEL ESTUDIO:
+[Ej.: Estudio fenomenológico sobre la experiencia de participación ocupacional en adultos con fibromialgia]
+
+FRAGMENTO A ANALIZAR:
+[Pega aquí el texto de la transcripción o el extracto de los datos cualitativos]
+
+Por favor, realiza lo siguiente:
+1. Realiza una primera codificación inductiva del fragmento, identificando los códigos más relevantes.
+2. Para cada código, proporciona: nombre del código, descripción breve y cita textual del fragmento que lo ilustra.
+3. Señala qué fragmentos son especialmente ricos o significativos para la pregunta de investigación.
+4. Indica si detectas patrones emergentes o conexiones entre los códigos identificados.
+5. Presenta los resultados en una tabla: Código | Descripción | Cita textual de ejemplo.",
+Análisis y síntesis,Detector de sesgos implícitos en investigación,"Este prompt analiza un estudio científico o un texto académico en busca de sesgos implícitos que pueden afectar a la validez, la interpretación o la aplicabilidad de los resultados: sesgos de selección, de medición, de publicación, de confirmación, sesgos culturales, de género, de capacidad funcional, entre otros. Es especialmente relevante para detectar sesgos que afectan a la investigación en Terapia Ocupacional y en poblaciones vulnerables.","Proporciona el texto del artículo (o un resumen detallado de sus métodos, resultados y discusión). La IA realizará un análisis crítico orientado a identificar sesgos tanto explícitos como implícitos.","Actúa como un experto en metodología de la investigación y pensamiento crítico en ciencias de la salud, con especial sensibilidad hacia los sesgos que afectan a la investigación en poblaciones con discapacidad, diversidad funcional y participación ocupacional.
+
+Te facilito el siguiente artículo (o resumen) para que realices un análisis exhaustivo de los posibles sesgos presentes:
+
+TÍTULO Y REFERENCIA: [Escribe aquí el título, autores y año]
+TIPO DE ESTUDIO: [Diseño metodológico]
+
+TEXTO O RESUMEN DEL ARTÍCULO:
+[Pega aquí el texto completo o el abstract + sección de métodos + discusión]
+
+Por favor, analiza los siguientes tipos de sesgos y señala si están presentes, cómo se manifiestan y cuál es su impacto potencial en los resultados:
+
+1. SESGOS METODOLÓGICOS (diseño del estudio)
+  - Sesgo de selección: ¿La muestra representa adecuadamente a la población de interés? ¿Hay criterios de exclusión que limiten la generalización?
+  - Sesgo de información / medición: ¿Los instrumentos de medida son válidos y fiables para esta población? ¿Hubo cegamiento de los evaluadores?
+  - Sesgo de confusión: ¿Se controlaron las variables de confusión relevantes?
+  - Sesgo de attrition (abandono): ¿Hubo pérdidas de seguimiento? ¿Se analizaron por intención de tratar?
+
+2. SESGOS COGNITIVOS EN LA INTERPRETACIÓN
+  - Sesgo de confirmación: ¿Los autores presentan los resultados de forma que confirman su hipótesis inicial, minimizando o ignorando evidencia contraria?
+  - Sesgo de conveniencia de los datos: ¿Se seleccionaron análisis post-hoc para obtener significación estadística?
+  - Sesgo de framing: ¿El lenguaje usado en la discusión sobreinterpreta los resultados o los presenta de forma engañosa?
+
+3. SESGOS CULTURALES Y CONTEXTUALES
+  - ¿Los resultados son aplicables a contextos culturales diferentes al del estudio? ¿Se menciona la limitación cultural?
+  - ¿Se ignoran factores socioeconómicos, étnicos o contextuales relevantes para la participación ocupacional?
+  - ¿El estudio asume universalidad de conceptos ocupacionales que pueden ser culturalmente específicos?
+
+4. SESGOS DE GÉNERO Y DIVERSIDAD
+  - ¿El estudio analiza o ignora diferencias por género / sexo en los resultados?
+  - ¿Está la muestra equilibrada en cuanto a género? ¿Se justifica si no lo está?
+  - ¿Se consideran factores de interseccionalidad (edad, etnia, nivel socioeconómico)?
+
+5. SESGOS ESPECÍFICOS DE INVESTIGACIÓN EN TERAPIA OCUPACIONAL
+  - ¿Se asume que las categorías de ""función"" o ""desempeño ocupacional"" tienen el mismo significado para todos los participantes?
+  - ¿Se usa terminología biomédica para describir experiencias que deberían describirse desde una perspectiva ocupacional?
+  - ¿Se miden outcomes centrados en la persona o solo en la función?
+  - ¿Se ignoran los valores, prioridades y el contexto de vida de los participantes?
+
+6. SESGO DE PUBLICACIÓN Y FINANCIACIÓN
+  - ¿Hay conflictos de interés declarados?
+  - ¿La financiación del estudio podría haber influenciado el diseño o la presentación de resultados?
+  - ¿El estudio forma parte de una línea de investigación con posible sesgo de publicación positiva?
+
+7. VALORACIÓN GLOBAL DE SESGOS
+  - Enumera los 3 sesgos más graves detectados, con su impacto estimado en la validez de los resultados.
+  - ¿Invalidan los sesgos detectados las conclusiones del estudio? ¿O las matizan?
+  - ¿Qué deberían haber hecho los autores de forma diferente?",
+Análisis y síntesis,Evaluador de calidad metodológica con checklists,"Este prompt aplica herramientas estandarizadas de evaluación de la calidad metodológica y las guías de reporte a artículos científicos, adaptándose al diseño del estudio. Cubre los checklists más utilizados en ciencias de la salud y Terapia Ocupacional: STROBE, COREQ, CONSORT, PRISMA, CASPe, CASP, AMSTAR-2, AGREE II, SRQR, entre otros.","Indica el tipo de estudio e introduce el texto del artículo. La IA aplicará el checklist correspondiente ítem por ítem y generará un informe de calidad con puntuación, áreas de mejora y recomendaciones.","Actúa como un metodólogo experto en evaluación de la calidad de la investigación en ciencias de la salud, con conocimiento profundo de las guías de reporte y checklists de evaluación crítica más utilizados.
+
+Necesito que evalúes la calidad metodológica del siguiente artículo:
+
+TÍTULO DEL ARTÍCULO: [Escribe el título]
+AUTORES Y AÑO: [Escribe autores y año]
+TIPO DE ESTUDIO: [Selecciona el que corresponda:]
+  [ ] Estudio observacional (cohortes, caso-control, transversal) → STROBE
+  [ ] Ensayo controlado aleatorizado (ECA) → CONSORT
+  [ ] Estudio cualitativo → COREQ / SRQR
+  [ ] Revisión sistemática / meta-análisis → PRISMA / AMSTAR-2
+  [ ] Scoping review → PRISMA-ScR
+  [ ] Guía de práctica clínica → AGREE II
+  [ ] Estudio de caso / serie de casos → CARE
+  [ ] Evaluación crítica general → CASPe (indica tipo: ECA / cohortes / cualitativo / revisión)
+  [ ] Otro: ______
+
+TEXTO DEL ARTÍCULO:
+[Pega aquí el texto completo o el abstract con métodos y resultados]
+
+Por favor, realiza lo siguiente:
+
+1. APLICACIÓN DEL CHECKLIST
+  Para cada ítem del checklist seleccionado, indica:
+  - Ítem: [descripción del criterio]
+  - Cumplimiento: Sí / Parcialmente / No / No aplica
+  - Evidencia del texto: [cita o descripción de dónde se cumple, o por qué no se cumple]
+  Presenta esto en formato de tabla.
+
+2. PUNTUACIÓN GLOBAL
+  - Número de ítems cumplidos / total de ítems aplicables
+  - Porcentaje de cumplimiento
+  - Nivel de calidad global: Alta / Moderada / Baja / Muy baja (con justificación)
+
+3. ANÁLISIS DE FORTALEZAS
+  ¿Qué aspectos metodológicos del estudio están bien reportados y son sólidos?
+
+4. ANÁLISIS DE DEBILIDADES Y RIESGOS DE SESGO
+  ¿Qué ítems no se cumplen o se cumplen solo parcialmente?
+  ¿Cuál es el impacto de estas debilidades sobre la validez de los resultados?
+
+5. RECOMENDACIONES
+  Si este artículo fuera tuyo, ¿qué mejorarías para aumentar la calidad metodológica y el cumplimiento del checklist?
+
+6. APLICABILIDAD PARA REVISIÓN SISTEMÁTICA
+  ¿Incluirías este estudio en una revisión sistemática? ¿Con qué nivel de confianza en sus resultados?",
+Análisis y síntesis,Evaluador de coherencia entre marco teórico y diseño metodológico,"Este prompt evalúa la coherencia interna de un proyecto o artículo de investigación, verificando que existe alineación entre el marco teórico o conceptual utilizado, la pregunta de investigación, el diseño metodológico, los instrumentos de recogida de datos y los outcomes medidos. La incoherencia entre estos elementos es una debilidad metodológica frecuente en investigación en Terapia Ocupacional.","Proporciona la información sobre el marco teórico, la pregunta y el diseño de tu estudio (o del artículo que estás evaluando). La IA analizará la coherencia entre todos estos elementos y señalará posibles inconsistencias.","Actúa como un experto en metodología de la investigación y filosofía de la ciencia, con especialización en la investigación en Terapia Ocupacional y ciencias de la salud.
+
+Necesito que evalúes la coherencia entre el marco teórico, la pregunta de investigación y el diseño metodológico del siguiente estudio:
+
+INFORMACIÓN DEL ESTUDIO:
+
+1. MARCO TEÓRICO / CONCEPTUAL:
+[Describe el modelo o marco teórico que sustenta el estudio. Ej.: Modelo de Ocupación Humana (MOHO), Marco Canadiense del Desempeño y Participación Ocupacional (CMOP-E), Modelo Ecológico, Modelo Biomecánico, perspectiva fenomenológica, teoría social crítica, etc.]
+
+Principios clave del marco teórico que se usan en este estudio:
+[Ej.: el MOHO entiende el desempeño ocupacional como resultado de la interacción entre volición, habituación y capacidad de desempeño en un contexto determinado]
+
+2. PREGUNTA DE INVESTIGACIÓN:
+[Escribe la pregunta de investigación tal como aparece en el estudio]
+
+3. OBJETIVOS DEL ESTUDIO:
+[Objetivo general y objetivos específicos]
+
+4. DISEÑO METODOLÓGICO:
+[Ej.: estudio cualitativo fenomenológico / ECA / estudio de cohortes / investigación-acción / etnografía...]
+Paradigma epistemológico (si se declara): [Interpretativismo / positivismo / constructivismo / crítico...]
+
+5. PARTICIPANTES Y MUESTRA:
+[Descripción de la muestra, tipo de muestreo, criterios de selección]
+
+6. INSTRUMENTOS Y TÉCNICAS DE RECOGIDA DE DATOS:
+[Ej.: entrevistas semiestructuradas / COPM / FIM / cuestionarios ad hoc / observación participante / escalas estandarizadas...]
+
+7. OUTCOMES O RESULTADOS MEDIDOS:
+[Variables de resultado o categorías de análisis que se van a obtener]
+
+8. ANÁLISIS PREVISTO:
+[Análisis estadístico / análisis temático / análisis de contenido / grounded theory...]
+
+Por favor, evalúa la coherencia en los siguientes niveles:
+
+1. COHERENCIA MARCO TEÓRICO – PREGUNTA DE INVESTIGACIÓN
+  ¿La pregunta de investigación se deriva lógicamente del marco teórico? ¿Usa los constructos del marco para formular la pregunta?
+
+2. COHERENCIA EPISTEMOLÓGICA – DISEÑO METODOLÓGICO
+  ¿El diseño metodológico es compatible con el paradigma epistemológico que se declara (o que se implica)? ¿Es coherente un diseño cuantitativo con un paradigma constructivista? ¿Un diseño cualitativo con una pregunta de eficacia?
+
+3. COHERENCIA DISEÑO – INSTRUMENTOS
+  ¿Los instrumentos de recogida de datos son los más adecuados para el diseño elegido? ¿Son válidos para la población de estudio? ¿Miden los constructos del marco teórico?
+
+4. COHERENCIA OUTCOMES – MARCO TEÓRICO
+  ¿Los outcomes o categorías de análisis son los que el marco teórico prevé como relevantes? ¿O se miden variables ajenas al modelo conceptual del estudio?
+
+5. COHERENCIA ANÁLISIS – DISEÑO Y DATOS
+  ¿El método de análisis es adecuado para el diseño y el tipo de datos recogidos?
+
+6. VALORACIÓN GLOBAL
+  - ¿Existe coherencia interna en el diseño del estudio? (Sí / Parcialmente / No)
+  - Identifica las 3 principales incoherencias detectadas, ordenadas por gravedad.
+  - Propón correcciones o alternativas para resolver cada incoherencia.",
+Análisis y síntesis,Sintetizador de evidencia para tablas de resultados,"Este prompt ayuda a sintetizar los hallazgos de múltiples estudios en una tabla de resultados estructurada, lista para incluir en una revisión sistemática, scoping review o revisión narrativa. Genera una síntesis narrativa coherente que acompaña a la tabla y facilita la interpretación del conjunto de la evidencia.",Proporciona los datos clave de los estudios que has incluido en tu revisión (pueden ser tus fichas de extracción o un listado de resultados). La IA organizará la información en una tabla estandarizada y generará la síntesis narrativa correspondiente.,"Actúa como un experto en síntesis de evidencia y revisiones sistemáticas en ciencias de la salud, con especialización en Terapia Ocupacional.
+
+Necesito que sintetices los resultados de los estudios de mi revisión en una tabla estructurada y en una síntesis narrativa.
+
+PREGUNTA DE REVISIÓN O TEMA CENTRAL:
+[Describe la pregunta de investigación que guía tu revisión]
+
+ESTUDIOS INCLUIDOS:
+[Facilita aquí la información de cada estudio. Puedes usar el siguiente formato para cada uno:]
+
+Estudio [n]:
+- Referencia: [Autores, año]
+- Diseño: [Ej.: ECA, cualitativo, cohorte...]
+- Muestra (n y características): [...]
+- Intervención / Exposición: [...]
+- Outcome(s) medido(s): [...]
+- Instrumento(s): [...]
+- Resultados principales: [datos clave, dirección del efecto]
+- Calidad del estudio: [alta / moderada / baja, según tu evaluación]
+
+[Repite el bloque para cada estudio]
+
+TIPO DE SÍNTESIS SOLICITADA:
+[ ] Solo tabla de resultados
+[ ] Solo síntesis narrativa
+[ ] Ambas (tabla + síntesis narrativa)
+
+AGRUPACIÓN PREFERIDA (cómo quieres organizar la tabla):
+[ ] Por tipo de intervención
+[ ] Por tipo de outcome/resultado
+[ ] Por diseño de estudio
+[ ] Por población
+[ ] Por orden cronológico
+[ ] Sin agrupación específica
+
+Por favor, realiza lo siguiente:
+
+1. TABLA DE RESULTADOS
+  Elabora una tabla con las siguientes columnas (adapta según los datos disponibles):
+  Referencia | Diseño | n | Población | Intervención | Outcome | Instrumento | Resultados | Calidad
+
+2. SÍNTESIS NARRATIVA
+  - Resume los hallazgos principales agrupados por outcome o por intervención.
+  - Señala la dirección del efecto global (positivo, negativo, mixto, sin efecto).
+  - Indica el nivel de certeza o consistencia de la evidencia.
+  - Señala los estudios que más contribuyen a las conclusiones y los que presentan resultados discordantes.
+  - Usa el formato narrativo recomendado por las guías SWiM (Synthesis Without Meta-Analysis) si procede.
+
+3. EVALUACIÓN DEL CUERPO DE EVIDENCIA
+  - ¿Es el cuerpo de evidencia suficientemente homogéneo para extraer conclusiones?
+  - ¿Qué factores limitan la síntesis (heterogeneidad, riesgo de sesgo, tamaño muestral)?
+  - Propón una conclusión general sobre el estado de la evidencia.",
+Búsqueda y gestión bibliográfica,Comparador de hallazgos entre estudios,"Este prompt permite comparar de forma sistemática los hallazgos de dos o más estudios sobre un mismo tema, identificando convergencias, divergencias, complementariedades y contradicciones entre ellos. Es especialmente útil para la fase de síntesis de una revisión narrativa, sistemática o scoping review.","Proporciona a la IA los datos principales de cada estudio que deseas comparar (pueden ser resúmenes, extractos de resultados o las fichas de extracción que hayas elaborado). Indica el foco de la comparación para orientar el análisis.","Actúa como un experto en síntesis de evidencia científica con especialización en Terapia Ocupacional.
+
+Necesito que compares los hallazgos de los siguientes estudios en torno a la siguiente pregunta o tema central:
+
+PREGUNTA O TEMA CENTRAL DE LA COMPARACIÓN:
+[Ej.: ¿Qué evidencia existe sobre la eficacia de las intervenciones ocupacionales en el desempeño de las actividades de la vida diaria en personas con ictus?]
+
+A continuación te facilito la información de cada estudio:
+
+--- ESTUDIO 1 ---
+Referencia: [Autor(es), año, título breve]
+Diseño: [Ej.: ECA]
+Muestra: [n, características]
+Intervención: [descripción breve]
+Outcome principal: [variable e instrumento]
+Resultados: [datos clave]
+Contexto: [país, entorno]
+
+--- ESTUDIO 2 ---
+Referencia: [Autor(es), año, título breve]
+Diseño: [Ej.: estudio de cohortes]
+Muestra: [n, características]
+Intervención / Exposición: [descripción breve]
+Outcome principal: [variable e instrumento]
+Resultados: [datos clave]
+Contexto: [país, entorno]
+
+[Añade más estudios si los tienes, siguiendo el mismo formato]
+
+Por favor, realiza lo siguiente:
+
+1. TABLA COMPARATIVA
+  Elabora una tabla que compare los estudios en las siguientes dimensiones:
+  - Diseño metodológico
+  - Tamaño y características de la muestra
+  - Tipo de intervención u exposición
+  - Instrumento(s) de medida del outcome principal
+  - Dirección y magnitud de los resultados
+  - Calidad metodológica general (alta / moderada / baja)
+
+2. ANÁLISIS DE CONVERGENCIAS
+  ¿En qué hallazgos coinciden los estudios? ¿Qué conclusiones se pueden sostener con más de un estudio?
+
+3. ANÁLISIS DE DIVERGENCIAS Y CONTRADICCIONES
+  ¿En qué aspectos difieren los resultados? ¿A qué pueden deberse esas diferencias (tamaño muestral, diseño, población, contexto, instrumento de medida...)?
+
+4. HETEROGENEIDAD METODOLÓGICA
+  ¿Son suficientemente similares los estudios como para comparar sus resultados directamente? ¿Qué factores limitan la comparabilidad?
+
+5. PESO DE LA EVIDENCIA
+  ¿Qué dirección sugiere el conjunto de la evidencia sobre el tema? ¿Cuál es el nivel de certeza de esa conclusión?
+
+6. IMPLICACIONES PARA LA REVISIÓN
+  ¿Qué aportan estos estudios al cuerpo de evidencia existente en Terapia Ocupacional? ¿Qué preguntas siguen sin respuesta?
+
+Presenta el resultado de forma clara, con la tabla al principio y el análisis narrativo después.",
+Búsqueda y gestión bibliográfica,Evaluador crítico de artículos científicos,"Este prompt guía a la IA para realizar una lectura crítica estructurada de un artículo científico. Permite analizar de forma sistemática la calidad metodológica, la validez de los resultados y la relevancia clínica del estudio, adaptándose al tipo de diseño del artículo evaluado.","Copia el bloque de instrucciones, pégalo en el chat de la IA y proporciona el texto completo del artículo (o los datos clave si no puedes pegarlo entero). Indica el tipo de estudio para que la IA aplique los criterios de evaluación más apropiados.","Actúa como un metodólogo experto en investigación en ciencias de la salud con experiencia en Terapia Ocupacional.
+
+Te facilito el siguiente artículo científico para que realices una lectura crítica estructurada:
+
+TÍTULO DEL ARTÍCULO: [Escribe aquí el título completo]
+AUTORES Y AÑO: [Escribe aquí autores y año de publicación]
+REVISTA: [Nombre de la revista]
+TIPO DE ESTUDIO (si lo sabes): [Ej.: ECA, cohorte, caso-control, cualitativo, revisión sistemática, estudio transversal...]
+
+TEXTO O RESUMEN DEL ARTÍCULO:
+[Pega aquí el abstract o el texto completo del artículo]
+
+Por favor, realiza la evaluación crítica siguiendo estos apartados:
+
+1. IDENTIFICACIÓN DEL ESTUDIO
+  - Pregunta de investigación (¿está claramente formulada en formato PICO o similar?)
+  - Justificación del estudio (¿se argumenta adecuadamente la relevancia?)
+  - Tipo de diseño utilizado y su adecuación a la pregunta
+
+2. VALIDEZ INTERNA
+  - Selección de participantes (criterios de inclusión/exclusión, representatividad)
+  - Descripción de la intervención o exposición (reproducibilidad)
+  - Medición de variables (instrumentos utilizados, validez, fiabilidad)
+  - Control de factores de confusión
+  - Riesgo de sesgos principales (selección, información, confusión)
+
+3. ANÁLISIS Y RESULTADOS
+  - Adecuación del análisis estadístico o cualitativo al diseño
+  - Presentación de los resultados (claridad, completitud)
+  - Significación estadística vs. relevancia clínica
+  - Manejo de datos perdidos (si aplica)
+
+4. VALIDEZ EXTERNA Y APLICABILIDAD
+  - Generalización de los resultados (¿a qué población se pueden extrapolar?)
+  - Aplicabilidad en el contexto de la Terapia Ocupacional
+  - Implicaciones para la práctica clínica
+
+5. CONSIDERACIONES ÉTICAS
+  - ¿Se menciona aprobación ética y consentimiento informado?
+  - ¿Se abordan conflictos de interés?
+
+6. VALORACIÓN GLOBAL
+  - Puntos fuertes del estudio
+  - Limitaciones principales
+  - Puntuación global de calidad metodológica (baja / moderada / alta) con justificación
+  - Recomendación: ¿incluirías este artículo en una revisión sistemática o como evidencia para la práctica? ¿Por qué?
+
+Presenta los resultados en formato estructurado con cada apartado claramente diferenciado.",
+Búsqueda y gestión bibliográfica,Extractor de datos de artículos para revisiones sistemáticas,"Este prompt facilita la extracción sistemática y estructurada de datos clave de artículos científicos para su uso en revisiones sistemáticas, meta-análisis o mapeos de evidencia (scoping reviews). Garantiza que la información se recoge de forma homogénea y reproducible entre los distintos revisores del grupo.","Copia el bloque de instrucciones, pégalo en el chat de la IA y proporciona el texto del artículo (o el abstract si no dispones del texto completo). Puedes extraer datos de un artículo cada vez o de varios si los pegas uno tras otro claramente delimitados.","Actúa como un asistente experto en revisiones sistemáticas en ciencias de la salud, especializado en Terapia Ocupacional.
+
+A continuación te facilito el texto de un artículo científico. Necesito que extraigas los datos de forma estructurada para incluirlos en mi tabla de extracción de datos de una revisión sistemática.
+
+TEXTO DEL ARTÍCULO:
+[Pega aquí el texto completo o el abstract del artículo]
+
+Por favor, extrae la siguiente información y preséntala en una tabla con dos columnas (Campo | Información extraída):
+
+DATOS BIBLIOGRÁFICOS
+- Autores (apellidos, iniciales)
+- Año de publicación
+- Título del artículo
+- Revista / Fuente
+- País donde se realizó el estudio
+- DOI o URL
+
+PREGUNTA DE INVESTIGACIÓN Y OBJETIVOS
+- Objetivo principal del estudio
+- Pregunta de investigación (si está formulada explícitamente)
+- Marco teórico o modelo conceptual utilizado (si se menciona)
+
+DISEÑO DEL ESTUDIO
+- Tipo de diseño metodológico
+- Tipo de muestreo
+- Tamaño de la muestra (n total, grupo intervención, grupo control)
+
+PARTICIPANTES
+- Diagnóstico o condición de los participantes
+- Rango de edad (media ± DE si se reporta)
+- Sexo / género (distribución)
+- Criterios de inclusión principales
+- Criterios de exclusión principales
+- Contexto / entorno del estudio (hospital, comunidad, residencia, etc.)
+
+INTERVENCIÓN (si aplica)
+- Descripción de la intervención principal
+- Profesional que la aplica
+- Duración y frecuencia de la intervención
+- Intervención comparadora o grupo control (si existe)
+
+VARIABLES Y RESULTADOS
+- Variable de resultado principal (outcome primario)
+- Variables de resultado secundarias (outcomes secundarios)
+- Instrumentos de medida utilizados (nombre, validez reportada)
+- Momento(s) de medición (pre, post, seguimiento)
+
+RESULTADOS PRINCIPALES
+- Resultados estadísticos clave (medias, diferencias, IC 95%, tamaño del efecto, p-valor)
+- Dirección del efecto (favorable, desfavorable, neutro)
+- Significación estadística y relevancia clínica
+
+CALIDAD Y SESGOS
+- Limitaciones declaradas por los autores
+- Fuentes de financiación
+- Conflicto de intereses declarado
+
+RELEVANCIA PARA MI REVISIÓN
+- ¿Este estudio responde directamente a mi pregunta de revisión? (Sí / Parcialmente / No)
+- Comentarios adicionales
+
+Si algún dato no está disponible en el texto, indica ""No reportado"".",
+Búsqueda y gestión bibliográfica,Generador de estrategias de búsqueda,"Este prompt te ayuda a construir estrategias de búsqueda bibliográfica sistemáticas y reproducibles a partir de tu pregunta de investigación. Traduce los componentes de tu pregunta (en formato PICO o PCC) a ecuaciones de búsqueda optimizadas para las principales bases de datos científicas (PubMed, Scopus, CINAHL, OTseeker, Cochrane, etc.).","Copia el bloque de instrucciones que aparece más abajo, pégalo en el chat de la IA y rellena los campos entre corchetes con la información de tu investigación. Cuanto más completo seas, mejor será el resultado.","Actúa como un experto en búsqueda bibliográfica sistemática especializado en ciencias de la salud y Terapia Ocupacional.
+
+Mi pregunta de investigación es:
+[Escribe aquí tu pregunta de investigación en lenguaje natural]
+
+El tipo de pregunta es:
+[ ] PICO (Población, Intervención, Comparación, Resultado/Outcome)
+[ ] PCC  (Población, Concepto, Contexto)
+[ ] Otro: [especifica cuál]
+
+Los componentes de mi pregunta son:
+
+P – Población: [Ej.: adultos mayores con deterioro cognitivo leve]
+I/C – Intervención o Concepto: [Ej.: intervenciones basadas en ocupación]
+C – Comparación (si aplica): [Ej.: intervención farmacológica / sin intervención]
+O – Resultado esperado (si aplica): [Ej.: calidad de vida, participación social]
+Contexto (si aplica): [Ej.: atención comunitaria, residencias de mayores]
+
+Tipos de estudios que me interesan:
+[Ej.: revisiones sistemáticas, ensayos controlados, estudios cualitativos, estudios observacionales...]
+
+Bases de datos en las que quiero buscar:
+[Marca las que necesites: PubMed / Scopus / CINAHL / OTseeker / Cochrane / Web of Science / PsycINFO / Otra: ______]
+
+Idiomas aceptados: [Ej.: inglés y español]
+
+Por favor, realiza lo siguiente:
+
+1. Identifica los términos clave para cada componente, incluyendo sinónimos, términos MeSH (para PubMed) y términos libres (text word).
+2. Construye una ecuación de búsqueda para cada base de datos solicitada, con los operadores booleanos correctos (AND, OR, NOT) y truncamientos si procede.
+3. Indica cómo aplicar filtros de tipo de estudio, fecha e idioma en cada base de datos.
+4. Estima el nivel de sensibilidad y especificidad de la estrategia y propón ajustes si es necesario.
+5. Presenta los resultados en una tabla organizada por base de datos.",
+Búsqueda y gestión bibliográfica,Identificador de lagunas en investigación en Terapia Ocupacional,"Este prompt permite analizar el estado actual de la evidencia sobre un tema concreto en Terapia Ocupacional e identificar las lagunas de conocimiento existentes: áreas sin estudiar, poblaciones subrepresentadas, diseños metodológicos ausentes, outcomes no explorados y preguntas de investigación pendientes. Es esencial para justificar nuevas líneas de investigación y redactar el apartado de ""futuras investigaciones"" de un artículo.","Proporciona a la IA un resumen del estado de la evidencia sobre el tema (puede ser tu propia revisión narrativa, una tabla de resultados o el apartado de discusión de un artículo reciente). Cuanta más información aportes, más precisas serán las lagunas identificadas.","Actúa como un experto en investigación en Terapia Ocupacional con amplio conocimiento del estado de la evidencia en ciencias de la salud.
+
+Te facilito información sobre el estado actual de la investigación en el siguiente tema:
+
+TEMA O ÁREA DE INVESTIGACIÓN:
+[Ej.: Terapia Ocupacional y participación social en personas con enfermedad mental grave]
+
+SÍNTESIS DEL ESTADO DE LA EVIDENCIA (pega aquí lo que sabes):
+[Ej.: Resumen de tu revisión, listado de estudios encontrados, puntos principales de la discusión de artículos recientes, o simplemente una descripción del campo...]
+
+INFORMACIÓN ADICIONAL QUE PUEDAS APORTAR:
+- Número aproximado de estudios encontrados en tu búsqueda: [__]
+- Tipos de diseño predominantes en la evidencia existente: [Ej.: estudios cualitativos, estudios transversales...]
+- Poblaciones más estudiadas hasta ahora: [Ej.: adultos en fase estable, entorno hospitalario...]
+- Outcomes más medidos: [Ej.: calidad de vida, sintomatología...]
+- Marcos teóricos o modelos más utilizados: [Ej.: MOHO, rehabilitación psicosocial...]
+
+Por favor, analiza esta información e identifica las lagunas de investigación en los siguientes niveles:
+
+1. LAGUNAS TEMÁTICAS
+  ¿Qué preguntas sustantivas sobre el tema siguen sin respuesta? ¿Qué aspectos del fenómeno no han sido explorados?
+
+2. LAGUNAS POBLACIONALES
+  ¿Qué subgrupos de población están ausentes o subrepresentados en la investigación? (Ej.: grupos de edad, género, etnia, comorbilidades, contextos culturales específicos...)
+
+3. LAGUNAS METODOLÓGICAS
+  ¿Qué diseños de investigación no se han utilizado aún para este tema? ¿Hay ausencia de estudios longitudinales, ECA, estudios de implementación, investigación cualitativa, métodos mixtos?
+
+4. LAGUNAS EN OUTCOMES Y MEDICIÓN
+  ¿Qué resultados relevantes para la Terapia Ocupacional no se están midiendo? (Ej.: desempeño ocupacional, roles, sentido de identidad ocupacional, participación en la comunidad...) ¿Faltan instrumentos validados?
+
+5. LAGUNAS CONTEXTUALES Y DE TRANSFERENCIA
+  ¿Faltan estudios en determinados entornos (comunitario, domiciliario, rural, países de renta baja)? ¿Hay poca evidencia sobre implementación en la práctica clínica real?
+
+6. LAGUNAS TEÓRICAS
+  ¿Se están utilizando marcos teóricos de Terapia Ocupacional en la investigación existente, o se trabaja desde perspectivas externas a la disciplina?
+
+7. PROPUESTA DE LÍNEAS PRIORITARIAS DE INVESTIGACIÓN
+  A partir de las lagunas identificadas, propón 3-5 preguntas de investigación concretas que el grupo podría abordar, ordenadas por viabilidad y relevancia para la práctica clínica en TO.
+
+Presenta el análisis de forma narrativa, seguido de una tabla resumen de las lagunas y las propuestas de líneas de investigación.",
+Difusión y transferencia,Asistente para preparar pósters y comunicaciones a congresos,"Este prompt ayuda a preparar el contenido de un póster científico o de una comunicación oral para congresos de Terapia Ocupacional y ciencias de la salud. Genera el texto estructurado y ajustado al espacio y formato habitual de estos formatos, y proporciona consejos para maximizar el impacto visual y comunicativo de la presentación.","Indica el tipo de presentación (póster o comunicación oral), proporciona los datos del estudio y los requisitos específicos del congreso. La IA generará el contenido estructurado listo para diseñar o presentar.","Actúa como un experto en comunicación científica en ciencias de la salud con experiencia en el diseño de contenido para pósters en congresos de Terapia Ocupacional.
+
+Necesito que prepares el contenido textual de un póster científico para el siguiente congreso:
+
+CONGRESO: [Nombre del congreso, entidad organizadora, año]
+TÍTULO DE MI COMUNICACIÓN: [Escribe aquí el título]
+LÍMITE DE PALABRAS DEL PÓSTER (si lo sabes): [Ej.: máximo 500 palabras en total]
+
+DATOS DEL ESTUDIO:
+- Tipo de estudio: [...]
+- Objetivos: [...]
+- Metodología: [descripción breve: muestra, intervención, instrumentos]
+- Resultados principales: [datos clave]
+- Conclusiones: [...]
+
+Por favor, genera el texto para cada sección del póster, teniendo en cuenta que debe ser:
+- Conciso: pocas palabras por sección (el póster no se lee, se escanea)
+- Visualmente jerarquizado: los títulos de sección son llamativos, el texto es muy breve
+- Orientado al impacto: los resultados y conclusiones deben estar en primer plano
+
+Secciones a desarrollar:
+1. TÍTULO (máximo 15 palabras, atractivo y descriptivo)
+2. AUTORES E INSTITUCIÓN (formato estándar)
+3. INTRODUCCIÓN / JUSTIFICACIÓN (3-5 puntos clave, máximo 80 palabras)
+4. OBJETIVO(S) (formulado en 1-2 frases)
+5. METODOLOGÍA (3-6 puntos clave en formato visual: n=, diseño, instrumentos, análisis)
+6. RESULTADOS (los 3-5 hallazgos más relevantes, con datos concretos; sugiere qué representar en tabla o gráfico)
+7. DISCUSIÓN / IMPLICACIONES (2-3 frases clave)
+8. CONCLUSIONES (máximo 3 puntos en bullets)
+9. REFERENCIAS CLAVE (máximo 5, en formato abreviado)
+10. CONTACTO (email del investigador principal)
+11. INFORMACIÓN DE FINANCIACIÓN (si aplica)
+
+Al final, sugiere: (a) qué tipo de gráfico o tabla sería más impactante para visualizar los resultados, y (b) 2-3 consejos de diseño visual para el póster.",
+Difusión y transferencia,Comparador estratégico de revistas objetivo,"Este prompt ayuda a elegir la revista científica más adecuada para enviar un manuscrito de investigación en Terapia Ocupacional, comparando las principales opciones según criterios como el alcance temático, el factor de impacto, el proceso de revisión, el tiempo de publicación, la política de acceso abierto y la adecuación del artículo al perfil de la revista.",Describe tu manuscrito y las revistas que estás considerando. La IA realizará un análisis comparativo y te recomendará la opción más adecuada con justificación.,"Actúa como un experto en publicación científica en Terapia Ocupacional y ciencias de la salud, con conocimiento actualizado de las principales revistas del campo.
+
+Necesito ayuda para elegir la revista más adecuada para enviar mi manuscrito:
+
+DESCRIPCIÓN DEL MANUSCRITO:
+- Título: [...]
+- Tipo de artículo: [Ej.: artículo original / revisión sistemática / estudio cualitativo / scoping review / caso clínico...]
+- Tema principal: [Ej.: intervención de TO en envejecimiento / salud mental / pediatría / neurorrehabilitación / ergonomía...]
+- Población estudiada: [...]
+- Metodología: [...]
+- Mensaje principal / contribución: [¿Qué aporta de nuevo?]
+- Idioma del manuscrito: [Español / Inglés / Bilingüe]
+- Extensión aproximada: [número de palabras]
+
+REVISTAS QUE ESTOY CONSIDERANDO:
+[Lista las revistas que has preseleccionado, o pide a la IA que sugiera opciones]
+Opción 1: [Nombre de la revista]
+Opción 2: [Nombre de la revista]
+Opción 3: [Nombre de la revista]
+[Añade más si quieres]
+
+CRITERIOS PRIORITARIOS PARA LA ELECCIÓN (marca los más importantes para ti):
+[ ] Factor de impacto / índice de citaciones (JCR, Scimago...)
+[ ] Adecuación temática (que el tema encaje con el scope de la revista)
+[ ] Tiempo de publicación (rapidez de respuesta y publicación)
+[ ] Acceso abierto (OA)
+[ ] Indexación (PubMed, Scopus, Web of Science, CINAHL...)
+[ ] Audiencia (clínica, investigadora, internacional, nacional)
+[ ] Tasa de aceptación
+[ ] Coste de publicación (APC – Article Processing Charge)
+[ ] Visibilidad en la comunidad de TO española / latinoamericana
+[ ] Otro: [especifica]
+
+Por favor, realiza el siguiente análisis comparativo:
+
+1. TABLA COMPARATIVA DE REVISTAS
+  Para cada revista listada, proporciona:
+  | Revista | Scope/Temática | Factor de impacto (Q y cuartil) | Indexación | OA/Híbrida/Restringida | APC (si OA) | Tiempo de revisión (aprox.) | Tasa de aceptación | Tipos de artículo aceptados |
+
+2. ADECUACIÓN DEL MANUSCRITO A CADA REVISTA
+  ¿Encaja el tema, el diseño y el enfoque del manuscrito con el scope y la audiencia de cada revista?
+  ¿Hay alguna característica del manuscrito que lo haga especialmente adecuado o inadecuado para cada opción?
+
+3. ANÁLISIS COMPETITIVO
+  ¿Qué tipo de artículos publica habitualmente cada revista en este tema?
+  ¿Cuál es el nivel de competencia / exigencia de cada revista?
+  ¿El diseño metodológico del manuscrito es competitivo para cada revista?
+
+4. RECOMENDACIÓN PRINCIPAL
+  ¿Cuál es la revista que mejor se ajusta al manuscrito y a tus prioridades?
+  Justificación: [...]
+
+5. PLAN B Y PLAN C
+  Si la primera opción rechaza el manuscrito, ¿cuál sería la segunda y tercera opción? ¿Por qué?
+
+6. RECOMENDACIONES ADICIONALES
+  ¿Hay alguna revista que no hayas considerado y que podría ser una buena opción?
+  ¿Hay algo del manuscrito que debería modificarse para mejorar sus opciones en la revista recomendada?",
+Difusión y transferencia,Creador de resúmenes divulgativos en lenguaje accesible,"Este prompt transforma el abstract o los resultados de un artículo científico en un resumen divulgativo comprensible para diferentes audiencias no expertas: usuarios y pacientes, familias, gestores sanitarios, periodistas y público general. También genera versiones para redes sociales (Twitter/X, LinkedIn, Instagram) y plataformas de divulgación científica. Promueve la transferencia real del conocimiento más allá de la publicación académica.","Proporciona el abstract o los resultados clave del artículo e indica para qué audiencia o canal necesitas el resumen. La IA generará una versión adaptada, clara y atractiva.","Actúa como un comunicador científico especializado en ciencias de la salud, con capacidad para traducir resultados de investigación al lenguaje cotidiano sin perder la precisión.
+
+Necesito que transformes el siguiente artículo científico en un resumen divulgativo adaptado a diferentes audiencias:
+
+TEXTO ORIGINAL (abstract o resumen de resultados):
+[Pega aquí el abstract del artículo o el resumen de los resultados principales]
+
+TÍTULO DEL ARTÍCULO: [...]
+TIPO DE ESTUDIO: [Ej.: ECA / revisión sistemática / estudio cualitativo...]
+
+AUDIENCIAS Y FORMATOS PARA LOS QUE NECESITO EL RESUMEN (marca los que quieras):
+
+[ ] RESUMEN PARA USUARIOS / PACIENTES Y FAMILIAS
+  Características: Lenguaje muy sencillo (nivel de lectura de secundaria), sin jerga técnica, centrado en ""¿qué significa esto para mí y mi vida?"", empático y cercano.
+  Extensión: 150-200 palabras.
+
+[ ] RESUMEN PARA GESTORES Y RESPONSABLES DE POLÍTICAS SANITARIAS
+  Características: Lenguaje profesional pero no técnico, orientado a la toma de decisiones, con énfasis en el impacto en costes, eficiencia y política de salud.
+  Extensión: 200-250 palabras.
+
+[ ] RESUMEN PARA PROFESIONALES DE SALUD NO ESPECIALIZADOS EN TO
+  Características: Lenguaje clínico accesible, sin terminología específica de TO, centrado en las implicaciones para la práctica interprofesional.
+  Extensión: 200-250 palabras.
+
+[ ] POST PARA TWITTER/X (en español y/o inglés)
+  Características: Máximo 280 caracteres. Incluye el mensaje clave, impacto práctico y hashtags relevantes (#TerapiaOcupacional #OccupationalTherapy #OTresearch...).
+
+[ ] POST PARA LINKEDIN
+  Características: 150-300 palabras. Tono profesional, narrativo, con llamada a la acción. Incluye 3-5 hashtags.
+
+[ ] HILO DE TWITTER/X (thread)
+  Características: 5-8 tweets encadenados que cuenten la historia de la investigación de forma progresiva. Incluye elementos visuales sugeridos para cada tweet.
+
+[ ] TEXTO PARA INSTAGRAM (caption)
+  Características: 100-150 palabras, emotivo y visual, con emojis apropiados y hashtags. Sugiere también el tipo de imagen o gráfico que lo acompañaría.
+
+[ ] NOTA DE PRENSA (para medios de comunicación)
+  Características: Estructura de pirámide invertida (lo más importante al principio). 250-350 palabras. Incluye titular atractivo, lead (primer párrafo informativo) y cita del investigador principal.
+
+Para todos los formatos:
+- Mantén la precisión factual: no exageres ni simplifiques en exceso los resultados.
+- Resalta el beneficio para las personas, no solo el resultado estadístico.
+- Usa el lenguaje de la Terapia Ocupacional de forma comprensible (explica brevemente si usas términos específicos).",
+Difusión y transferencia,Evaluador de potencial citabilidad del artículo,"Este prompt analiza un manuscrito o abstract para evaluar su potencial de ser citado por otros investigadores. Identifica los factores que aumentan o reducen la citabilidad de un artículo (originalidad, relevancia temática, claridad del mensaje, calidad de los datos, aplicabilidad, acceso abierto, difusión...) y propone mejoras concretas para maximizar el impacto del artículo en la comunidad científica.",Proporciona el abstract (o el manuscrito completo) y la IA analizará su potencial de citabilidad desde múltiples dimensiones.,"Actúa como un bibliometrista y editor científico con experiencia en investigación en ciencias de la salud y Terapia Ocupacional, con conocimiento de los factores que determinan el impacto y la citabilidad de los artículos científicos.
+
+Necesito que evalúes el potencial de citabilidad del siguiente artículo:
+
+TEXTO DEL ARTÍCULO (abstract o manuscrito completo):
+[Pega aquí el texto]
+
+INFORMACIÓN ADICIONAL:
+- Revista de destino: [Ej.: BJOT / AJOT / AOTJ / revista nacional...]
+- Factor de impacto de la revista (si lo conoces): [...]
+- Acceso del artículo: [Acceso abierto (OA) / Acceso restringido / No lo sé]
+- ¿Tienes datos de uso de artículos similares en esta área (citas de artículos relacionados)?: [Sí/No]
+
+Por favor, evalúa el potencial de citabilidad en las siguientes dimensiones:
+
+1. ORIGINALIDAD Y NOVEDAD
+  ¿El artículo aporta algo nuevo al campo? ¿Aborda una laguna real de conocimiento?
+  ¿Es el primero en estudiar esta pregunta o añade a una línea de investigación ya establecida?
+  Valoración: Alta / Moderada / Baja – con justificación.
+
+2. RELEVANCIA Y OPORTUNIDAD TEMÁTICA
+  ¿El tema está en auge en la literatura actual de TO y ciencias de la salud?
+  ¿Responde a prioridades de investigación reconocidas (Ej.: envejecimiento activo, salud mental, inclusión, IA en salud...)?
+  ¿Es un tema con masa crítica de investigadores que podrían citarlo?
+
+3. CALIDAD Y CREDIBILIDAD DE LOS DATOS
+  ¿El diseño metodológico es sólido y la muestra adecuada para las conclusiones?
+  ¿Los resultados son claros, reproducibles y bien presentados?
+  ¿El nivel de evidencia es alto?
+
+4. CLARIDAD Y ACCESIBILIDAD DEL MENSAJE
+  ¿El título es claro y contiene las palabras clave más buscadas en bases de datos?
+  ¿El abstract comunica de forma efectiva el ""por qué importa"" este artículo?
+  ¿Las conclusiones son específicas y accionables?
+
+5. APLICABILIDAD CLÍNICA Y PRÁCTICA
+  ¿El artículo tiene utilidad directa para la práctica clínica en TO?
+  ¿Es probable que los clínicos lo busquen y lo citen en guías, protocolos o estudios aplicados?
+
+6. FACTORES ESTRUCTURALES DE CITABILIDAD
+  - ¿El título incluye palabras clave relevantes para búsquedas en PubMed, Scopus o Google Scholar?
+  - ¿Las palabras clave del artículo están bien elegidas para maximizar la visibilidad?
+  - ¿El artículo citará trabajos influyentes del campo (que a su vez recomendarán el artículo a sus autores)?
+  - ¿La revista elegida está indexada en las principales bases de datos?
+  - ¿El acceso abierto aumentaría significativamente la citabilidad?
+
+7. ESTRATEGIA DE DIFUSIÓN
+  ¿El equipo tiene estrategia de difusión activa en redes sociales, ResearchGate, Academia.edu?
+  ¿Se va a difundir en congresos o redes profesionales de TO?
+
+8. PUNTUACIÓN GLOBAL Y RECOMENDACIONES
+  - Potencial de citabilidad estimado: Alto / Moderado / Bajo
+  - Top 5 de mejoras concretas para aumentar la citabilidad del artículo
+  - ¿Hay algún cambio en el título, abstract o palabras clave que podría aumentar significativamente la visibilidad?",
+Difusión y transferencia,Generador de cartas al editor y cover letters,"Este prompt ayuda a redactar dos tipos de documentos fundamentales para la publicación científica: (1) la carta de presentación (cover letter) que acompaña al envío de un manuscrito a una revista, y (2) la carta al editor (letter to the editor) como tipo de artículo independiente para comentar, replicar o complementar un trabajo publicado. Ambos formatos requieren precisión, persuasión y adecuación al tono de la revista destinataria.",Selecciona el tipo de documento que necesitas y rellena los campos con la información de tu manuscrito o el artículo al que quieres responder.,"Actúa como un editor académico con experiencia en publicación científica en ciencias de la salud y Terapia Ocupacional.
+
+Necesito que redactes una carta de presentación (cover letter) para acompañar el envío de mi manuscrito a una revista científica:
+
+INFORMACIÓN DEL MANUSCRITO:
+- Título del artículo: [Escribe el título completo]
+- Tipo de artículo: [Ej.: artículo original / revisión sistemática / estudio cualitativo...]
+- Resumen de los resultados principales: [3-5 líneas con los hallazgos clave]
+- Contribución principal a la disciplina: [¿Qué aporta de nuevo este artículo?]
+- Área temática: [Ej.: neurorrehabilitación / salud mental / envejecimiento / pediatría...]
+- Autores (nombre del primer autor y número total): [...]
+
+INFORMACIÓN DE LA REVISTA:
+- Nombre de la revista: [Ej.: British Journal of Occupational Therapy]
+- Nombre del editor/a jefe (si lo conoces): [...]
+- Scope de la revista (en qué se especializa): [Ej.: investigación en TO y evidencia de práctica clínica]
+
+ARGUMENTOS CLAVE PARA INCLUIR EN LA CARTA:
+1. ¿Por qué este artículo es adecuado para esta revista específica? [...]
+2. ¿Por qué el tema es relevante y actual? [...]
+3. ¿Hay alguna consideración especial (sin publicación previa, sin conflicto de intereses, contribución original)? [...]
+
+Por favor, redacta una cover letter de máximo 400 palabras que:
+1. Se dirija al editor/a de la revista con el tono apropiado.
+2. Presente brevemente el artículo y su originalidad.
+3. Argumente por qué este manuscrito encaja con el alcance y la audiencia de la revista.
+4. Incluya las declaraciones estándar requeridas (originalidad, no envío simultáneo, conflicto de intereses, contribución de autores si aplica).
+5. Cierre de forma profesional y cordial.",
+Difusión y transferencia,Generador de implicaciones clínicas a partir de resultados,"Este prompt transforma los resultados de un estudio en implicaciones clínicas concretas, prácticas y accionables para terapeutas ocupacionales y equipos de salud. Va más allá de la mera descripción de hallazgos: conecta los resultados con la toma de decisiones clínicas, los cambios en la práctica y las recomendaciones para profesionales en activo.","Proporciona los resultados del estudio y el contexto clínico al que van dirigidas las implicaciones. La IA generará un conjunto de implicaciones clínicas estructuradas, listas para incluir en la sección de discusión del artículo o en materiales de formación y difusión.","Actúa como un terapeuta ocupacional senior con doble perfil clínico e investigador, experto en traducir evidencia científica en recomendaciones de práctica clínica.
+
+A partir de los siguientes resultados de investigación, necesito que generes un conjunto de implicaciones clínicas concretas para terapeutas ocupacionales:
+
+DATOS DEL ESTUDIO:
+- Referencia: [Autores, año, título]
+- Tipo de estudio: [...]
+- Población estudiada: [...]
+- Intervención o exposición: [...]
+- Contexto del estudio: [Ej.: unidad de hospitalización / centro de día / atención primaria / comunidad...]
+
+RESULTADOS PRINCIPALES:
+[Describe los hallazgos más relevantes del estudio, con datos si los tienes:]
+1. [Resultado 1]
+2. [Resultado 2]
+3. [Resultado 3]
+[Añade más si los hay]
+
+NIVEL DE EVIDENCIA DEL ESTUDIO (si lo sabes):
+[Ej.: Nivel I – ECA / Nivel II – cuasi-experimental / Nivel III – observacional / Nivel IV – cualitativo / Nivel V – experto]
+
+Por favor, genera las implicaciones clínicas en los siguientes niveles:
+
+1. IMPLICACIONES PARA LA PRÁCTICA CLÍNICA DIRECTA
+  ¿Qué debería hacer (o dejar de hacer) un terapeuta ocupacional a partir de estos resultados?
+  Presenta 3-5 recomendaciones concretas, formuladas como acciones específicas (comenzar con verbo activo: ""Considerar..."", ""Incorporar..."", ""Priorizar..."", ""Evaluar..."").
+  Para cada recomendación, indica:
+  - La acción concreta
+  - El fundamento en los resultados del estudio
+  - La población a la que aplica
+  - El nivel de certeza de la recomendación (fuerte / moderada / débil / condicional)
+
+2. IMPLICACIONES PARA LA EVALUACIÓN
+  ¿Cambian los resultados la forma en que debemos evaluar a nuestros usuarios?
+  ¿Qué nuevos aspectos del desempeño ocupacional o de la participación deberíamos valorar?
+  ¿Qué instrumentos de evaluación se sugieren o están respaldados por estos resultados?
+
+3. IMPLICACIONES PARA EL DISEÑO DE INTERVENCIONES
+  ¿Qué elementos de la intervención estudiada deberían incorporarse a la práctica habitual?
+  ¿Hay algún componente de la intervención especialmente eficaz o crítico que deba preservarse?
+  ¿Cómo adaptar la intervención a diferentes contextos asistenciales?
+
+4. IMPLICACIONES PARA LA FORMACIÓN PROFESIONAL
+  ¿Qué habilidades, conocimientos o actitudes deberían reforzarse en los profesionales a partir de estos resultados?
+  ¿Habría que incorporar estos hallazgos en la formación de grado o posgrado en TO?
+
+5. IMPLICACIONES PARA LA POLÍTICA Y LA GESTIÓN SANITARIA
+  ¿Qué cambios en la organización de los servicios, en los protocolos o en las políticas de salud se justificarían a partir de estos resultados?
+  ¿Habría argumentos para ampliar o financiar servicios de TO basados en esta evidencia?
+
+6. IMPLICACIONES PARA FUTURA INVESTIGACIÓN
+  ¿Qué preguntas quedan sin responder? ¿Qué estudios serían necesarios para fortalecer o consolidar estas recomendaciones?
+
+Formatea las implicaciones de forma que puedan incluirse directamente en la sección de discusión de un artículo y también en un documento de recomendaciones para profesionales.",
+Escritura y redacción académica,Adaptador de manuscritos a normas de revistas específicas,"Este prompt ayuda a adaptar un manuscrito ya redactado a las normas de formato, extensión, estructura y estilo de una revista científica específica. Es especialmente útil cuando se redirige un artículo de una revista a otra o cuando se prepara un manuscrito por primera vez para una publicación concreta.","Indica la revista de destino y facilita el texto de tu manuscrito (o las secciones que necesitas adaptar). Si tienes acceso a las instrucciones para autores de la revista, pégalas también para mayor precisión.","Actúa como un editor experto en publicación científica en ciencias de la salud y Terapia Ocupacional, con conocimiento de las principales revistas del campo.
+
+Necesito adaptar mi manuscrito a las normas de la siguiente revista:
+
+REVISTA DE DESTINO: [Ej.: British Journal of Occupational Therapy (BJOT) / American Journal of Occupational Therapy (AJOT) / Australian Occupational Therapy Journal (AOTJ) / Revista Española de Terapia Ocupacional / otra: ______]
+
+TIPO DE ARTÍCULO: [Ej.: artículo original / revisión sistemática / estudio cualitativo / carta al editor / estudio de caso / scoping review...]
+
+INSTRUCCIONES PARA AUTORES (si las tienes):
+[Pega aquí el texto de las instrucciones para autores de la revista, o indica si quieres que la IA las consulte desde su conocimiento]
+
+TEXTO DEL MANUSCRITO:
+[Pega aquí el manuscrito completo o la sección que deseas adaptar]
+
+Por favor, realiza las siguientes adaptaciones:
+
+1. ESTRUCTURA Y SECCIONES
+  - ¿El manuscrito incluye todas las secciones requeridas por la revista?
+  - ¿El orden de las secciones es el correcto?
+  - ¿Hay secciones adicionales que la revista exige (Ej.: ""Implications for Practice"", ""Key Messages"", ""What this Paper Adds""...)?
+
+2. EXTENSIÓN Y LÍMITES
+  - Extensión total del artículo: ¿cumple el límite de palabras? (indica recuento actual y límite de la revista)
+  - Extensión del abstract: ¿cumple el límite? Adapta si es necesario.
+  - Número de tablas y figuras: ¿supera el máximo permitido?
+  - Número de referencias: ¿supera el máximo permitido?
+
+3. FORMATO DE CITAS Y REFERENCIAS
+  - Adapta el sistema de citas al requerido por la revista (APA, Vancouver, Harvard, estilo propio...).
+  - Formatea correctamente la lista de referencias según las normas de la revista.
+  - Detecta referencias con formato incorrecto en el texto.
+
+4. ABSTRACT Y PALABRAS CLAVE
+  - ¿El abstract tiene el formato exigido (estructurado / no estructurado)?
+  - ¿Cumple el límite de palabras?
+  - ¿Las palabras clave siguen el estándar indicado (MeSH, libres, OT-specific)?
+
+5. LENGUAJE Y ESTILO
+  - ¿El nivel de inglés o español es adecuado para la audiencia internacional de la revista?
+  - ¿Se usan las guías de reporte pertinentes (CONSORT, PRISMA, COREQ, STROBE...)? ¿Debes incluir un checklist como suplemento?
+
+6. CONSIDERACIONES ÉTICAS Y DECLARACIONES
+  - ¿La revista exige declaración de conflicto de intereses?
+  - ¿Exige declaración de uso de IA (según política COPE o propia)?
+  - ¿Exige declaración de disponibilidad de datos?
+  - ¿Requiere información sobre financiación?
+
+Entrega un informe con: (a) lista de cambios necesarios ordenados por urgencia, (b) versión adaptada del abstract si necesitaba cambios, (c) comentarios sobre la adecuación del manuscrito a la revista elegida.",
+Escritura y redacción académica,Corrector de estilo académico y coherencia terminológica,"Este prompt revisa un texto académico para mejorar su calidad estilística, asegurar la coherencia terminológica (especialmente en el uso de términos propios de la Terapia Ocupacional) y garantizar que cumple con los estándares de redacción científica en español o inglés. No se limita a correcciones gramaticales: evalúa el tono académico, la precisión conceptual y la consistencia en el uso del vocabulario disciplinar.","Pega el texto que deseas revisar tras las instrucciones. Funciona con secciones sueltas (párrafos, apartados) o con el artículo completo. Cuanto más contexto proporciones sobre la audiencia y la revista objetivo, más ajustada será la corrección.","Actúa como un editor lingüístico y terminológico especializado en publicación científica en ciencias de la salud, con conocimiento profundo de la Terapia Ocupacional como disciplina.
+
+Te facilito el siguiente texto para que lo revises en profundidad:
+
+TEXTO A REVISAR:
+[Pega aquí el texto completo o la sección que deseas corregir]
+
+INFORMACIÓN DE CONTEXTO:
+- Tipo de texto: [Ej.: artículo original / revisión / protocolo / presentación a congreso...]
+- Sección del artículo (si aplica): [Introducción / Métodos / Resultados / Discusión / Abstract / Todo el manuscrito]
+- Idioma del texto: [Español / Inglés]
+- Revista objetivo (si la tienes): [Ej.: Revista Española de Terapia Ocupacional / BJOT / AJOT...]
+- Nivel de intervención deseado:
+  [ ] Revisión profunda (restructura párrafos si es necesario)
+  [ ] Revisión moderada (mejora el texto sin cambiar la estructura)
+  [ ] Revisión ligera (solo correcciones de estilo y errores evidentes)
+
+Por favor, realiza las siguientes revisiones:
+
+1. ESTILO ACADÉMICO
+  - Elimina coloquialismos, expresiones informales o subjetivas no justificadas.
+  - Ajusta el nivel de formalidad al estándar de revistas científicas de salud.
+  - Corrige frases excesivamente largas o ambiguas.
+  - Sugiere el uso de voz activa donde mejore la claridad (o voz pasiva si el estilo de la revista lo requiere).
+
+2. COHERENCIA TERMINOLÓGICA EN TERAPIA OCUPACIONAL
+  - Detecta usos inconsistentes de términos clave (Ej.: ""actividad"" vs. ""ocupación"", ""paciente"" vs. ""usuario"" vs. ""cliente"", ""discapacidad"" vs. ""diversidad funcional"", ""rehabilitación"" vs. ""habilitación""...).
+  - Propón el término más preciso y consistente con la terminología actual de la disciplina (marco de referencia de TO, OTPF, CAOT, WFOT...).
+  - Advierte si se usan términos de otras disciplinas donde debería usarse terminología propia de TO.
+
+3. COHERENCIA INTERNA DEL TEXTO
+  - Verifica que los conceptos se introducen antes de usarse.
+  - Comprueba que no hay contradicciones internas entre párrafos.
+  - Asegura que las transiciones entre ideas son lógicas y fluidas.
+
+4. CORRECCIONES GRAMATICALES Y ORTOTIPOGRÁFICAS
+  - Ortografía, puntuación, uso de mayúsculas y minúsculas en términos técnicos.
+  - Uso correcto de siglas (primera aparición desarrollada, resto abreviada).
+  - Formato de números, estadísticas y unidades (según normas APA o de la revista).
+
+5. ENTREGA
+  a) Versión corregida del texto completo (con los cambios aplicados directamente).
+  b) Lista de los cambios más relevantes con la justificación de cada corrección.
+  c) Observaciones finales: 2-3 recomendaciones para mejorar la calidad global del texto.",
+Escritura y redacción académica,Generador de resúmenes estructurados,"Este prompt ayuda a redactar el resumen estructurado (abstract) de un artículo científico a partir de la información clave del manuscrito. Genera un abstract que cumple con los formatos más habituales en revistas de Terapia Ocupacional y ciencias de la salud (estructurado con apartados, o no estructurado según la revista), respetando el límite de palabras indicado.","Proporciona los datos clave de tu artículo y el prompt generará un abstract listo para revisar e insertar en el manuscrito. Si tienes ya un abstract redactado, puedes usar el modo revisión al final.","Actúa como un editor académico experto en ciencias de la salud y Terapia Ocupacional, con amplia experiencia publicando en revistas internacionales.
+
+Necesito que redactes el resumen estructurado (abstract) de mi artículo científico con los siguientes datos:
+
+TIPO DE ARTÍCULO: [Ej.: artículo original / revisión sistemática / estudio cualitativo / scoping review / caso clínico / artículo de revisión narrativa]
+
+TÍTULO DEL ARTÍCULO: [Escribe el título completo]
+
+INFORMACIÓN CLAVE DEL ARTÍCULO:
+
+Objetivo del estudio:
+[Describe en 1-2 frases qué se quería investigar y con qué propósito]
+
+Diseño metodológico:
+[Ej.: ensayo controlado aleatorizado / estudio de cohortes prospectivo / investigación cualitativa fenomenológica...]
+
+Participantes / Muestra:
+[Ej.: 45 adultos con ictus crónico (edad media 62,3 años; 60% mujeres) en seguimiento ambulatorio]
+
+Intervención o procedimiento:
+[Ej.: programa de TO domiciliaria basado en ocupaciones significativas durante 8 semanas, 2 sesiones/semana]
+
+Variables e instrumentos de medida:
+[Ej.: Outcome primario: desempeño en AVD (Medida Canadiense del Desempeño Ocupacional, COMP). Outcomes secundarios: calidad de vida (SF-36) y satisfacción con el desempeño]
+
+Resultados principales:
+[Incluye datos cuantitativos si los tienes: medias, diferencias, IC 95%, p-valor, tamaño del efecto; o hallazgos cualitativos principales si es investigación cualitativa]
+
+Conclusiones e implicaciones:
+[¿Qué concluye el estudio? ¿Qué implica para la práctica clínica o la investigación en TO?]
+
+FORMATO DEL ABSTRACT:
+[ ] Estructurado (con subapartados: Objetivo, Métodos, Resultados, Conclusiones)
+[ ] No estructurado (texto corrido, sin subapartados)
+
+LÍMITE DE PALABRAS: [Ej.: 250 palabras / 300 palabras]
+IDIOMA: [Español / Inglés / Ambos]
+
+Por favor:
+1. Redacta el abstract respetando el límite de palabras indicado.
+2. Usa terminología estándar en investigación en Terapia Ocupacional.
+3. Asegúrate de que cada sección del abstract (si es estructurado) cumpla su función específica.
+4. Al final, indica el recuento de palabras del abstract generado.
+5. Si el idioma solicitado es inglés (o ambos), cuida especialmente la precisión terminológica y el registro académico en inglés.
+
+Opcional: tras el abstract, propón también 5-8 palabras clave (keywords) relevantes para la indexación en bases de datos.",
+Escritura y redacción académica,Redactor de declaración de uso de IA en investigación,"Este prompt ayuda a redactar una declaración transparente y adecuada sobre el uso de herramientas de inteligencia artificial en el proceso de investigación o redacción de un artículo científico. Responde a las crecientes exigencias de revistas, comités editoriales y guías de buenas prácticas (COPE, ICMJE, Elsevier, etc.) en materia de transparencia en el uso de IA generativa.","Rellena los campos indicando qué herramientas de IA usaste, en qué fases del proceso investigador y para qué tareas concretas. La IA generará una declaración redactada que podrás incluir en tu manuscrito.","Actúa como un experto en ética de la publicación científica y buenas prácticas en investigación, con conocimiento de las directrices actuales sobre uso de inteligencia artificial en la escritura académica (COPE, ICMJE, Elsevier AI policy, etc.).
+
+Necesito redactar una declaración de uso de IA para incluir en mi artículo científico. Te facilito la siguiente información:
+
+INFORMACIÓN SOBRE EL ARTÍCULO:
+- Título del artículo: [Escribe aquí]
+- Tipo de artículo: [Ej.: artículo original / revisión sistemática / estudio cualitativo...]
+- Revista de destino: [Ej.: BJOT / AJOT / otra: ______]
+
+USO DE IA DURANTE EL PROCESO DE INVESTIGACIÓN:
+(Marca todas las fases en las que se usó IA y describe brevemente cómo)
+
+[ ] Búsqueda bibliográfica
+  Herramienta(s) usada(s): [Ej.: ChatGPT, Perplexity, Elicit, Research Rabbit...]
+  Uso concreto: [Ej.: generación de ecuaciones de búsqueda, identificación de artículos relevantes...]
+
+[ ] Análisis de datos
+  Herramienta(s) usada(s): [Ej.: ChatGPT, Claude, otro...]
+  Uso concreto: [Ej.: asistencia en el análisis temático, codificación preliminar...]
+
+[ ] Redacción y revisión del manuscrito
+  Herramienta(s) usada(s): [Ej.: ChatGPT, Claude, Grammarly, DeepL...]
+  Uso concreto: [Ej.: corrección de estilo, revisión gramatical en inglés, mejora de la fluidez del texto...]
+
+[ ] Traducción
+  Herramienta(s) usada(s): [Ej.: DeepL, Google Translate, ChatGPT...]
+  Uso concreto: [Ej.: traducción del abstract al inglés, revisada y corregida por los autores]
+
+[ ] Generación de figuras o imágenes
+  Herramienta(s) usada(s): [Ej.: DALL-E, Midjourney...]
+  Uso concreto: [Descripción breve]
+
+[ ] Otro uso: [Describe]
+
+ACLARACIONES IMPORTANTES:
+- ¿Alguna de las herramientas de IA fue considerada para incluirla como autora? [Sí / No]
+  (Si Sí: indica por qué y cómo lo resolveréis)
+- ¿Los autores verificaron manualmente todos los contenidos generados o asistidos por IA? [Sí / No / Parcialmente]
+- ¿La revista tiene una política específica sobre uso de IA que debas seguir? [Sí: _______ / No / No lo sé]
+
+Por favor, redacta una declaración de uso de IA que:
+1. Sea transparente, precisa y honesta sobre el uso real de estas herramientas.
+2. Especifique claramente qué tareas realizaron las herramientas de IA y cuáles realizaron exclusivamente los autores humanos.
+3. Afirme que la responsabilidad intelectual y científica del trabajo recae íntegramente en los autores.
+4. Sea compatible con las directrices COPE e ICMJE y con la política de la revista indicada (si la conoces).
+5. Tenga una extensión adecuada (normalmente 50-150 palabras) para incluirla en la sección de ""Declaraciones del autor"" o equivalente.
+6. Esté redactada en [español / inglés / ambos idiomas].
+
+Proporciona también una versión corta (1-2 frases) para incluir como nota al pie si la revista lo permite.",
+Escritura y redacción académica,Redactor y revisor de secciones de artículos científicos,"Este prompt ayuda a redactar o mejorar cualquier sección de un artículo científico: introducción, marco teórico, métodos, resultados o discusión. Puede usarse tanto para escribir desde cero (a partir de notas o datos) como para revisar y mejorar un texto ya redactado.","Selecciona el modo que necesitas (redactar desde cero o revisar texto existente), rellena los campos correspondientes y pega el prompt en el chat de la IA.","Actúa como un redactor académico experto en ciencias de la salud y Terapia Ocupacional, con experiencia publicando en revistas internacionales indexadas.
+
+Necesito que redactes la siguiente sección de mi artículo científico:
+
+SECCIÓN A REDACTAR: [Introducción / Marco teórico / Métodos / Resultados / Discusión / Conclusiones]
+
+INFORMACIÓN QUE TE PROPORCIONO:
+[Pega aquí tus notas, datos, ideas clave, esquema o borrador. Incluye lo que quieres que aparezca en esta sección aunque sea de forma desordenada o en puntos]
+
+CONTEXTO DEL ARTÍCULO:
+- Tema principal: [Ej.: eficacia de la TO en el manejo del dolor crónico]
+- Tipo de estudio: [Ej.: revisión sistemática / ECA / estudio cualitativo...]
+- Revista objetivo (si la tienes): [Ej.: British Journal of Occupational Therapy]
+- Extensión aproximada: [Ej.: 400-600 palabras]
+- Idioma de redacción: [Español / Inglés]
+
+Por favor:
+1. Redacta la sección con un estilo académico formal, claro y fluido.
+2. Sigue la estructura canónica de esa sección según los estándares internacionales de publicación científica (IMRAD si aplica).
+3. Usa terminología propia de la Terapia Ocupacional donde sea pertinente.
+4. Indica entre corchetes los lugares donde debo insertar referencias bibliográficas [CITAR: descripción del contenido a citar].
+5. Sugiere al final 2-3 mejoras posibles para reforzar la sección.",
+Específicos de Terapia Ocupacional,Analizador de impacto ocupacional en resultados de investigación,"Este prompt analiza en qué medida los resultados de un estudio tienen en cuenta el impacto en la participación ocupacional de las personas. Evalúa si los outcomes medidos reflejan genuinamente la perspectiva ocupacional (desempeño en actividades significativas, roles, participación, identidad ocupacional) o si se limitan a variables biomédicas o funcionales ajenas al núcleo de la Terapia Ocupacional. También propone cómo enriquecer el análisis del impacto ocupacional.",Proporciona los resultados y los instrumentos de medida del estudio. La IA realizará el análisis del impacto ocupacional y propondrá formas de mejorarlo o complementarlo.,"Actúa como un terapeuta ocupacional investigador con formación avanzada en teoría ocupacional y evaluación centrada en la ocupación.
+
+Necesito que analices el impacto ocupacional de los resultados del siguiente estudio:
+
+DATOS DEL ESTUDIO:
+- Referencia: [Autores, año, título]
+- Tipo de estudio y diseño: [...]
+- Población: [...]
+- Intervención o exposición: [...]
+- Objetivo declarado del estudio: [...]
+
+OUTCOMES E INSTRUMENTOS UTILIZADOS:
+[Lista todos los outcomes medidos y los instrumentos empleados:]
+
+Outcome 1: [Nombre de la variable] – Instrumento: [Nombre del instrumento]
+Outcome 2: [Nombre de la variable] – Instrumento: [Nombre del instrumento]
+[Añade todos los que correspondan]
+
+RESULTADOS PRINCIPALES:
+[Resumen de los hallazgos principales del estudio]
+
+Por favor, realiza el siguiente análisis:
+
+1. CLASIFICACIÓN DE OUTCOMES POR NIVEL DE RELEVANCIA OCUPACIONAL
+  Para cada outcome medido, clasifícalo en:
+  a) Outcome genuinamente ocupacional: mide directamente la participación, el desempeño ocupacional, los roles, la identidad ocupacional, la satisfacción con el desempeño o la calidad de vida ocupacional.
+  b) Outcome funcional relacionado: mide capacidades funcionales que tienen impacto indirecto en la participación ocupacional (Ej.: fuerza, equilibrio, cognición).
+  c) Outcome biomédico / clínico: mide variables principalmente clínicas sin relación directa con la participación ocupacional (Ej.: glucemia, frecuencia cardíaca, escala de dolor genérica).
+
+2. ANÁLISIS DEL IMPACTO OCUPACIONAL DE LOS RESULTADOS
+  - ¿Qué nos dicen los resultados sobre el impacto real en la vida ocupacional de los participantes?
+  - ¿Los resultados estadísticamente significativos tienen impacto ocupacional relevante?
+  - ¿Hay outcomes que deberían haberse medido desde una perspectiva ocupacional y no se midieron?
+
+3. PERSPECTIVA DE LA PERSONA
+  ¿Qué importa más para los participantes? ¿Los resultados medidos reflejan lo que es significativo para ellos en su vida cotidiana?
+  ¿Se incorporó la perspectiva del usuario en la selección de outcomes (Ej.: COPM, OSA, GAS centrado en el cliente)?
+
+4. ALINEACIÓN CON LA IDENTIDAD DISCIPLINAR DE LA TO
+  ¿Este estudio posiciona a la TO como una disciplina centrada en la ocupación, o simplemente como una proveedora de técnicas de rehabilitación funcional?
+  ¿Cómo podría este estudio haber contribuido mejor a la identidad disciplinar de la TO?
+
+5. PROPUESTAS DE ENRIQUECIMIENTO OCUPACIONAL
+  Si pudieras rediseñar el estudio o añadir una fase de seguimiento, ¿qué outcomes ocupacionales añadirías?
+  ¿Qué instrumentos centrados en la ocupación serían los más adecuados para esta población?
+
+6. IMPLICACIONES PARA LA COMUNICACIÓN DE RESULTADOS
+  ¿Cómo se podrían presentar estos resultados haciendo más visible el impacto ocupacional en la discusión y en el abstract?
+  Redacta un párrafo que comunique el impacto ocupacional de los resultados, listo para la sección de discusión.",
+Específicos de Terapia Ocupacional,Evaluador de aplicabilidad clínica en dispositivos asistenciales,"Este prompt evalúa si los resultados de un estudio son aplicables a un contexto asistencial concreto (hospital de día, unidad de rehabilitación, centro de día, atención domiciliaria, residencia, atención primaria, etc.). Analiza la brecha entre el contexto de investigación y el contexto clínico real, y propone recomendaciones para la implementación o adaptación de los hallazgos.",Proporciona los datos del estudio y la descripción de tu contexto asistencial. La IA evaluará la aplicabilidad de los resultados y te orientará sobre cómo implementarlos o qué barreras considerar.,"Actúa como un terapeuta ocupacional con experiencia tanto en investigación como en práctica clínica asistencial, experto en implementación de evidencia en contextos de salud.
+
+Necesito que evalúes si los resultados del siguiente estudio son aplicables en mi contexto clínico:
+
+DATOS DEL ESTUDIO:
+- Referencia: [Autores, año, título]
+- Tipo de estudio: [Ej.: ECA / revisión sistemática / estudio de cohortes...]
+- Población del estudio: [Descripción de los participantes: diagnóstico, edad, características]
+- Intervención evaluada: [Descripción breve]
+- Resultados principales: [Descripción de los hallazgos clave]
+- Contexto del estudio: [País, entorno (hospital, comunidad, etc.), sistema de salud]
+- Profesionales que aplican la intervención en el estudio: [Ej.: terapeuta ocupacional, equipo multidisciplinar...]
+- Recursos necesarios para la intervención: [Ej.: espacio, materiales, tiempo, formación específica...]
+
+MI CONTEXTO CLÍNICO:
+- Tipo de dispositivo / servicio: [Ej.: unidad de hospitalización de agudos / hospital de día / centro de día / atención domiciliaria / residencia / CSMA / atención primaria / otra...]
+- Población que atendemos: [Descripción]
+- Recursos humanos disponibles: [Ej.: 2 terapeutas ocupacionales a tiempo completo + 1 auxiliar]
+- Recursos materiales y espaciales: [Descripción breve]
+- Limitaciones del contexto: [Tiempo disponible, ratio profesional/usuario, restricciones institucionales...]
+- País / Sistema de salud: [Ej.: España, sistema público de salud / sistema concertado / privado]
+
+Por favor, realiza el siguiente análisis de aplicabilidad:
+
+1. SIMILITUD DE POBLACIÓN
+  ¿Los participantes del estudio son comparables a los usuarios de mi servicio?
+  ¿Hay diferencias relevantes en diagnóstico, edad, severidad, contexto cultural?
+  Valoración: Alta / Moderada / Baja – con justificación.
+
+2. SIMILITUD DE CONTEXTO
+  ¿El contexto del estudio es comparable a mi dispositivo asistencial?
+  ¿Qué diferencias estructurales o organizativas pueden afectar a la transferibilidad?
+  Valoración: Alta / Moderada / Baja – con justificación.
+
+3. VIABILIDAD DE LA INTERVENCIÓN
+  ¿Es posible implementar esta intervención con los recursos disponibles en mi servicio?
+  ¿Qué ajustes serían necesarios (tiempo, materiales, formación, espacio)?
+  ¿Qué barreras anticipas y cómo podrían superarse?
+
+4. ANÁLISIS COSTE-BENEFICIO
+  ¿Justifica la magnitud del beneficio (resultados del estudio) el esfuerzo de implementación?
+  ¿Hay evidencia de coste-efectividad de la intervención?
+
+5. ADECUACIÓN ÉTICA Y CULTURAL
+  ¿La intervención es culturalmente apropiada para los usuarios de tu servicio?
+  ¿Hay consideraciones éticas específicas para su implementación en este contexto?
+
+6. RECOMENDACIONES PARA LA IMPLEMENTACIÓN
+  Si la evidencia es aplicable (total o parcialmente):
+  - ¿Qué adaptaciones de la intervención serían necesarias?
+  - ¿Qué formación necesitarían los profesionales?
+  - ¿Cómo monitorizarías los resultados en la práctica real?
+  - ¿Qué indicadores clínicos usarías para evaluar el impacto?
+
+7. VALORACIÓN GLOBAL
+  ¿Recomiendas implementar esta intervención en tu servicio? Sí / Con adaptaciones / No – con justificación detallada.
+  ¿Se justifica un estudio de implementación o un proyecto piloto para evaluar su viabilidad?",
+Específicos de Terapia Ocupacional,Generador de hipótesis ocupacionales,"Este prompt ayuda a generar hipótesis de investigación fundamentadas en la perspectiva ocupacional, conectando fenómenos observados en la práctica clínica con preguntas de investigación formuladas desde los constructos propios de la Terapia Ocupacional. Facilita el paso desde la observación clínica o la revisión de la literatura a hipótesis formales, comprobables y disciplinarmente relevantes.","Describe la observación, intuición clínica, problema o hallazgo previo de la literatura del que parte tu idea. La IA te ayudará a formular hipótesis ocupacionales bien fundamentadas y te orientará sobre cómo operacionalizarlas.","Actúa como un investigador experto en Terapia Ocupacional con amplio conocimiento de la teoría ocupacional, los modelos de práctica y la metodología de la investigación en salud.
+
+A partir de la siguiente observación o punto de partida, necesito que me ayudes a generar hipótesis de investigación desde una perspectiva ocupacional:
+
+PUNTO DE PARTIDA:
+[Describe la observación clínica, el problema de práctica, el hallazgo de la literatura, la pregunta que te surge, o la intuición de tu equipo. Sé lo más específico posible]
+
+Ejemplo de punto de partida: ""Observamos en nuestra práctica clínica que los adultos con fibromialgia que mantienen actividades de ocio significativas parecen tener mejor tolerancia al dolor y mayor calidad de vida que los que han abandonado estas actividades, pero no sabemos si hay una relación causal.""
+
+INFORMACIÓN ADICIONAL (si la tienes):
+- Población de interés: [...]
+- Contexto de práctica: [...]
+- Evidencia previa relevante: [resume brevemente lo que ya se sabe]
+- Marco teórico de referencia (si lo tienes): [Ej.: MOHO, CMOP-E...]
+- Recursos disponibles para investigar esto: [...]
+
+Por favor, realiza lo siguiente:
+
+1. ANÁLISIS DEL PUNTO DE PARTIDA
+  ¿Qué tipo de fenómeno ocupacional se está observando? ¿Qué constructos de la TO están implicados?
+  ¿Qué lagunas de conocimiento se identifican?
+
+2. GENERACIÓN DE HIPÓTESIS OCUPACIONALES
+  Formula 3-5 hipótesis de investigación derivadas del punto de partida, con las siguientes características:
+  - Formuladas desde una perspectiva ocupacional genuina (usando constructos de la disciplina)
+  - Comprobables empíricamente (operacionalizables con métodos de investigación disponibles)
+  - Con diferentes niveles de complejidad (desde hipótesis simples a hipótesis relacionales complejas)
+  - Indicando para cada una: H nula (H0) e hipótesis alternativa (H1) si es cuantitativa, o pregunta de investigación exploratoria si es cualitativa
+
+3. FUNDAMENTACIÓN TEÓRICA DE CADA HIPÓTESIS
+  ¿En qué constructo del marco de TO se basa cada hipótesis? ¿Qué modelo teórico la sustenta?
+
+4. RELEVANCIA CLÍNICA
+  ¿Qué implicación tendría para la práctica de la TO confirmar o refutar cada hipótesis?
+
+5. DISEÑO METODOLÓGICO SUGERIDO
+  Para cada hipótesis, ¿qué diseño de investigación sería el más apropiado para ponerla a prueba?
+
+6. PRIORIZACIÓN
+  Considerando la relevancia, viabilidad y originalidad, ¿cuál sería la hipótesis más interesante para investigar? ¿Por qué?",
+Específicos de Terapia Ocupacional,Traductor de resultados a modelos de TO,"Este prompt ayuda a interpretar y reencuadrar los resultados de un estudio desde la perspectiva de los principales modelos y marcos de referencia de la Terapia Ocupacional. Permite conectar hallazgos de investigación (expresados a menudo en términos biomédicos o genéricos) con los constructos propios de la disciplina, facilitando la interpretación clínica y la discusión teórica de los resultados.","Proporciona los resultados de tu estudio y el modelo de TO que quieres usar como marco interpretativo. La IA realizará la ""traducción"" de los resultados al lenguaje conceptual del modelo seleccionado.","Actúa como un terapeuta ocupacional con formación avanzada en teoría y modelos de práctica de la Terapia Ocupacional, y experiencia en investigación clínica.
+
+Necesito que interpretes los resultados de mi estudio a través del siguiente modelo o marco de referencia de TO:
+
+MODELO O MARCO DE REFERENCIA A USAR:
+[ ] Modelo de Ocupación Humana (MOHO – Kielhofner)
+[ ] Marco Canadiense del Desempeño y Participación Ocupacional (CMOP-E / CAOT)
+[ ] Modelo de Práctica Centrado en el Cliente (PCC)
+[ ] Modelo Ecológico del Desempeño Humano (EHP – Dunn et al.)
+[ ] Modelo de Persona-Entorno-Ocupación (PEO – Law et al.)
+[ ] Modelo Kawa (perspectiva cultural)
+[ ] Marco de Referencia Biomecánico
+[ ] Marco de Referencia de Integración Sensorial (Ayres)
+[ ] Marco de Referencia del Desarrollo Cognitivo (Allen)
+[ ] Marco OTPF (Occupational Therapy Practice Framework – AOTA)
+[ ] Otro: [especifica]
+
+RESULTADOS DEL ESTUDIO (resumen):
+[Describe los principales hallazgos del estudio, con los datos más relevantes. Pueden ser resultados cuantitativos (puntuaciones, mejoras estadísticas, tamaños del efecto) o cualitativos (temas, categorías, narrativas)]
+
+TIPO DE ESTUDIO Y POBLACIÓN:
+[Ej.: ECA con 45 adultos con daño cerebral adquirido en entorno hospitalario]
+
+INTERVENCIÓN EVALUADA (si aplica):
+[Descripción breve de la intervención del estudio]
+
+Por favor, realiza lo siguiente:
+
+1. MAPEO DE RESULTADOS AL MODELO
+  Para cada resultado principal, identifica a qué constructo(s) del modelo seleccionado corresponde y explica la correspondencia:
+  - Resultado del estudio → Constructo del modelo → Explicación de la relación
+
+2. INTERPRETACIÓN DESDE EL MODELO
+  ¿Qué explica el modelo seleccionado sobre los resultados observados? ¿Qué mecanismos o procesos del modelo ayudan a comprender por qué se produjeron estos resultados?
+
+3. DISCUSIÓN TEÓRICA
+  Redacta un párrafo de discusión que interprete los resultados del estudio a través del modelo, con el lenguaje y los constructos propios de éste.
+
+4. IMPLICACIONES PARA LA PRÁCTICA
+  ¿Qué implicaciones para la intervención de TO se derivan de estos resultados interpretados desde el modelo?
+
+5. LIMITACIONES DE LA INTERPRETACIÓN
+  ¿Hay aspectos de los resultados que el modelo no cubre bien o que requieren otro marco teórico complementario?
+
+6. RECOMENDACIONES PARA FUTUROS ESTUDIOS
+  ¿Qué preguntas de investigación emergen de esta interpretación teórica?",
+Específicos de Terapia Ocupacional,Traductor de resultados estadísticos a implicaciones funcionales,"Este prompt traduce los resultados estadísticos de un estudio (medias, diferencias, IC 95%, tamaños del efecto, p-valores) a un lenguaje funcional y ocupacional comprensible: qué significan en la vida cotidiana del usuario, qué impacto tienen en el desempeño de actividades, la participación social y la calidad de vida. Facilita la redacción de la discusión y las implicaciones clínicas en los artículos de TO.",Proporciona los resultados estadísticos de tu estudio y una descripción de la población y el contexto. La IA los interpretará en clave funcional y ocupacional.,"Actúa como un terapeuta ocupacional investigador con experiencia en la interpretación de resultados estadísticos y su traducción a implicaciones para el desempeño ocupacional y la práctica clínica.
+
+Necesito que traduzcas los siguientes resultados estadísticos de mi estudio a un lenguaje de implicaciones funcionales y ocupacionales:
+
+DESCRIPCIÓN DEL ESTUDIO:
+- Tipo de estudio: [Ej.: ECA]
+- Población: [Ej.: 60 personas mayores con riesgo de caídas, edad media 76 años, en centros de atención primaria]
+- Intervención: [Ej.: programa de TO domiciliaria de 8 semanas para modificación del entorno y entrenamiento en AVD]
+- Instrumentos de medida utilizados: [Nombre y descripción breve de cada instrumento]
+
+RESULTADOS ESTADÍSTICOS A INTERPRETAR:
+[Pega aquí los resultados estadísticos principales:]
+
+Variable 1: [Nombre, Ej.: COPM – Desempeño]
+  Grupo intervención: pre [X ± DE], post [X ± DE]
+  Grupo control: pre [X ± DE], post [X ± DE]
+  Diferencia entre grupos: [valor, IC 95%, p-valor]
+  Tamaño del efecto (si disponible): [d de Cohen, η², OR...]
+
+Variable 2: [Nombre]
+  [Mismos datos]
+
+[Añade más variables si las tienes]
+
+CONTEXTO CLÍNICO ADICIONAL:
+- ¿Cuál es el cambio mínimo clínicamente importante (MCID) del instrumento, si lo conoces?: [...]
+- ¿Qué puntuación se considera ""normal"" o ""funcional"" en este instrumento?: [...]
+
+Por favor, para cada resultado estadístico, proporciona:
+
+1. INTERPRETACIÓN ESTADÍSTICA BÁSICA
+  ¿Es estadísticamente significativo? ¿Cuál es el tamaño del efecto? ¿Es clínicamente relevante?
+  (Diferencia entre significación estadística y relevancia clínica)
+
+2. TRADUCCIÓN FUNCIONAL
+  ¿Qué significa este cambio en la vida cotidiana de una persona con estas características?
+  ¿Qué actividades o participaciones concretas podrían verse afectadas por este cambio?
+  Usa ejemplos concretos y comprensibles (Ej.: ""una mejora de X puntos en la COPM equivale aproximadamente a..."")
+
+3. PERSPECTIVA OCUPACIONAL
+  ¿Cómo impacta este resultado en el desempeño ocupacional (AVD básicas, instrumentales, productividad, ocio)?
+  ¿Qué roles ocupacionales podrían verse beneficiados o perjudicados?
+
+4. PERSPECTIVA DEL USUARIO
+  Si este resultado se comunicara a una persona con estas características, ¿cómo se lo explicarías?
+  ¿Qué diferencia percibiría en su vida diaria?
+
+5. RELEVANCIA PARA LA TOMA DE DECISIONES CLÍNICAS
+  ¿Justifican estos resultados el uso de esta intervención en la práctica clínica habitual?
+  ¿Para qué perfil de usuario sería más relevante?
+
+6. PÁRRAFO DE DISCUSIÓN
+  Redacta un párrafo de discusión que integre la interpretación estadística y funcional de estos resultados, listo para incluir en el manuscrito.",
+Gestión del grupo de investigación,Analizador de alineación del proyecto con convocatorias específicas,"Este prompt analiza en qué medida un proyecto de investigación se alinea con los objetivos, criterios de evaluación y prioridades estratégicas de una convocatoria de financiación específica. Identifica los puntos fuertes y débiles del proyecto en relación con la convocatoria, y propone estrategias para fortalecer la candidatura o reconsiderar la convocatoria más adecuada.",Proporciona la descripción de tu proyecto y el texto (o un resumen) de la convocatoria que estás considerando. La IA realizará un análisis de alineación detallado y te dará recomendaciones concretas.,"Actúa como un experto en financiación de investigación con conocimiento profundo de convocatorias públicas y privadas en ciencias de la salud en España y Europa.
+
+Necesito que analices si mi proyecto de investigación se alinea adecuadamente con la siguiente convocatoria:
+
+DESCRIPCIÓN DEL PROYECTO:
+- Título: [...]
+- Tipo de estudio: [...]
+- Objetivo principal: [...]
+- Objetivos específicos: [lista]
+- Población: [...]
+- Metodología: [resumen breve]
+- Resultados esperados: [artículos, herramientas, datos, guías...]
+- Duración: [...]
+- Presupuesto estimado: [...]
+- Institución solicitante: [...]
+- Equipo investigador: [perfiles y experiencia previa relevante]
+
+INFORMACIÓN DE LA CONVOCATORIA:
+- Nombre de la convocatoria: [...]
+- Entidad financiadora: [...]
+- Objetivo general de la convocatoria: [...]
+- Áreas temáticas prioritarias: [...]
+- Criterios de evaluación y ponderación (si los conoces): [Ej.: excelencia científica 40%, equipo 30%, impacto 30%]
+- Presupuesto máximo financiable: [...]
+- Duración máxima del proyecto: [...]
+- Requisitos formales del equipo: [Ej.: tener sexenio, pertenecer a grupo reconocido, financiación previa...]
+- Otros requisitos específicos: [...]
+
+TEXTO DE LA CONVOCATORIA (si lo tienes):
+[Pega aquí el extracto más relevante de las bases de la convocatoria]
+
+Por favor, realiza el siguiente análisis de alineación:
+
+1. ANÁLISIS DE ALINEACIÓN TEMÁTICA
+  ¿El tema del proyecto está dentro de las prioridades de la convocatoria?
+  ¿Hay algún área temática de la convocatoria especialmente bien cubierta por el proyecto?
+  ¿Hay algún área prioritaria de la convocatoria que el proyecto no aborda y que podría incorporarse de forma legítima?
+
+2. ANÁLISIS CRITERIO A CRITERIO
+  Para cada criterio de evaluación declarado por la convocatoria:
+  - Descripción del criterio
+  - Fortaleza del proyecto en este criterio: Alta / Moderada / Baja
+  - Justificación
+  - Recomendación de mejora (si aplica)
+
+3. ADECUACIÓN FORMAL
+  ¿El presupuesto solicitado está dentro del rango de la convocatoria?
+  ¿La duración del proyecto se ajusta a los límites?
+  ¿El equipo cumple los requisitos formales?
+  ¿Hay algún requisito formal que el proyecto no cumpla actualmente?
+
+4. PUNTOS FUERTES DE LA CANDIDATURA
+  ¿Qué aspectos del proyecto son especialmente competitivos en el contexto de esta convocatoria?
+  ¿Hay algún elemento diferencial que puede destacarse como ventaja competitiva?
+
+5. PUNTOS DÉBILES Y RIESGOS
+  ¿Qué aspectos del proyecto están menos alineados con la convocatoria?
+  ¿Hay criterios de evaluación en los que el proyecto podría ser penalizado?
+  ¿Qué aspectos son más vulnerables a la crítica de los evaluadores?
+
+6. RECOMENDACIONES DE MEJORA
+  Para cada punto débil identificado, propón una estrategia concreta de mejora:
+  - Cambio / mejora propuesta
+  - Cómo implementarla en la solicitud
+  - Impacto esperado en la evaluación
+
+7. VALORACIÓN GLOBAL
+  ¿Es esta convocatoria adecuada para este proyecto? Sí / Con ajustes / No – con justificación.
+  Puntuación estimada de competitividad de la candidatura (sobre 10), con los criterios ponderados.
+  ¿Hay alguna convocatoria alternativa que podría ser más adecuada para este proyecto?",
+Gestión del grupo de investigación,Asistente para redacción de solicitudes de financiación,"Este prompt asiste en la redacción de las secciones más críticas de una solicitud de financiación para proyectos de investigación en Terapia Ocupacional: justificación, objetivos, metodología, plan de trabajo, presupuesto narrativo e impacto esperado. Está orientado a convocatorias competitivas públicas (FIS/ISCIII, AES, fundaciones, convocatorias europeas) y privadas.",Proporciona la información de tu proyecto y la convocatoria a la que vas a presentarte. La IA redactará las secciones indicadas con el tono y la estructura más adecuados para maximizar las posibilidades de financiación.,"Actúa como un experto en gestión de proyectos de investigación con amplia experiencia en la redacción de solicitudes de financiación para proyectos de ciencias de la salud en España y Europa.
+
+Necesito ayuda para redactar la solicitud de financiación de mi proyecto de investigación:
+
+INFORMACIÓN DEL PROYECTO:
+- Título del proyecto: [...]
+- Tipo de estudio: [...]
+- Objetivo principal: [...]
+- Objetivos específicos: [lista]
+- Justificación breve: [¿Por qué es necesario y urgente este proyecto?]
+- Metodología resumida: [Diseño, muestra, intervención, análisis]
+- Resultados esperados: [¿Qué producirá el proyecto: artículos, guías, herramientas, datos?]
+- Duración del proyecto: [...]
+- Presupuesto solicitado (aproximado): [...]
+- Equipo investigador: [Nombres, roles, perfiles, institución]
+
+CONVOCATORIA A LA QUE SE PRESENTA:
+- Nombre de la convocatoria: [Ej.: Proyectos de Investigación en Salud (FIS/ISCIII) / Convocatoria AES / Beca Fundación [X] / Horizonte Europa / Otra: ____]
+- Entidad financiadora: [...]
+- Criterios de evaluación declarados por la convocatoria (si los conoces): [Ej.: excelencia científica, equipo, impacto en salud, viabilidad...]
+- Límite de páginas por sección (si lo sabes): [...]
+- Fecha límite de presentación: [...]
+
+SECCIONES QUE NECESITAS REDACTAR (marca las que quieras):
+[ ] Resumen ejecutivo del proyecto (200-300 palabras)
+[ ] Antecedentes y justificación
+[ ] Hipótesis (si aplica)
+[ ] Objetivos (general y específicos)
+[ ] Metodología y plan de trabajo
+[ ] Análisis de viabilidad (recursos, equipo, infraestructura)
+[ ] Relevancia e impacto esperado
+[ ] Plan de transferencia y difusión
+[ ] Presupuesto narrativo (justificación de las partidas)
+[ ] Valor añadido del equipo (por qué este equipo es el más adecuado)
+
+Por favor, para cada sección seleccionada:
+1. Redacta el texto con el tono, la estructura y la extensión adecuados para una solicitud de financiación competitiva.
+2. Usa argumentos que respondan directamente a los criterios de evaluación declarados.
+3. Destaca la originalidad, la viabilidad, el equipo y el impacto del proyecto.
+4. Usa un lenguaje activo, persuasivo y técnicamente sólido.
+5. Señala con [COMPLETAR: descripción] los lugares donde necesito aportar datos específicos que la IA no puede generar.
+
+Al final, proporciona 3-5 recomendaciones generales para fortalecer la solicitud antes de enviarla.",
+Gestión del grupo de investigación,Generador de actas y seguimiento de reuniones,"Este prompt ayuda a redactar actas estructuradas de las reuniones del grupo de investigación y a generar documentos de seguimiento de los acuerdos alcanzados. Facilita la gestión documental del grupo, mejora la comunicación entre sus miembros y asegura el seguimiento de los compromisos y tareas asignadas.","Puedes usar este prompt de dos formas: (A) para redactar el acta a partir de tus notas de la reunión, o (B) para generar una plantilla de acta que el grupo pueda usar de forma sistemática.","Actúa como un secretario/a de reuniones con experiencia en gestión de grupos de investigación.
+
+A partir de las siguientes notas de nuestra reunión de investigación, redacta un acta formal y estructurada:
+
+DATOS DE LA REUNIÓN:
+- Nombre del grupo: [Ej.: Grupo Occupational Thinks – CSEU La Salle - [institución]]
+- Tipo de reunión: [Reunión ordinaria / Reunión extraordinaria / Reunión de proyecto específico]
+- Fecha: [DD/MM/AAAA]
+- Hora: [HH:MM - HH:MM]
+- Lugar / Modalidad: [Presencial en [lugar] / Videoconferencia / Híbrida]
+- Convoca: [Nombre]
+- Asistentes: [Lista de nombres y roles]
+- Ausencias justificadas: [Nombres, si aplica]
+
+NOTAS DE LA REUNIÓN:
+[Pega aquí las notas en bruto de la reunión, pueden ser desordenadas o en puntos]
+
+Por favor, redacta el acta con la siguiente estructura:
+1. ENCABEZADO (datos de la reunión)
+2. ORDEN DEL DÍA (extractado de las notas)
+3. DESARROLLO DE CADA PUNTO:
+  - Resumen de lo tratado (claro y conciso)
+  - Decisiones adoptadas (si las hay)
+4. ACUERDOS Y TAREAS
+  Tabla con: | Tarea / Acuerdo | Responsable | Fecha límite | Estado |
+5. PRÓXIMA REUNIÓN (fecha y lugar si se acordó)
+6. CIERRE Y FIRMAS (fórmula de cierre formal)
+
+El acta debe ser objetiva, clara y reproducible (alguien que no asistió debe poder entender qué se decidió).",
+Gestión del grupo de investigación,Planificador de cronogramas de proyectos,"Este prompt ayuda a diseñar un cronograma detallado y realista para un proyecto de investigación en Terapia Ocupacional. Genera un plan de trabajo estructurado con todas las fases, tareas, hitos, responsables y plazos, en un formato que puede incorporarse directamente a la solicitud de financiación o al protocolo del proyecto.","Proporciona la información básica del proyecto (duración, tipo de estudio, equipo, fases previstas) y la IA generará un cronograma detallado con distribución temporal de tareas.","Actúa como un experto en gestión de proyectos de investigación en ciencias de la salud.
+
+Necesito que diseñes un cronograma detallado para el siguiente proyecto de investigación:
+
+DESCRIPCIÓN DEL PROYECTO:
+- Título del proyecto: [...]
+- Tipo de estudio: [Ej.: ECA / revisión sistemática / estudio cualitativo / mixto...]
+- Objetivo principal: [...]
+- Duración total del proyecto: [Ej.: 18 meses / 24 meses / 36 meses]
+- Fecha de inicio prevista: [Mes/Año]
+
+EQUIPO INVESTIGADOR:
+- Investigador/a principal (IP): [nombre y cargo]
+- Co-investigadores/as: [número y perfiles]
+- Personal de apoyo: [Ej.: técnico de investigación, becario/a, estadístico/a...]
+- Colaboradores externos (si los hay): [...]
+
+FASES PREVISTAS DEL PROYECTO (si ya las tienes, o deja que la IA las proponga):
+[Ej.: Fase 1 – Preparación y aprobación ética / Fase 2 – Reclutamiento / Fase 3 – Intervención / Fase 4 – Análisis / Fase 5 – Difusión]
+
+HITOS CLAVE:
+[Ej.: envío al comité de ética, inicio del reclutamiento, cierre de la base de datos, envío del primer artículo, informe final de financiación...]
+
+RESTRICCIONES O CONDICIONANTES TEMPORALES:
+[Ej.: el reclutamiento solo puede hacerse en determinados meses / el IP está al 50% de dedicación / hay un congreso para el que queremos tener resultados...]
+
+Por favor, genera lo siguiente:
+
+1. CRONOGRAMA EN FORMATO TABLA (Diagrama de Gantt simplificado)
+  Columnas: Fase / Tarea / Responsable / Mes inicio / Mes fin / Duración
+  Representa también qué meses abarca cada tarea (puede ser en formato tabla con meses o con barras de texto).
+
+2. HITOS CLAVE Y ENTREGABLES
+  Lista los hitos principales del proyecto con fecha prevista y descripción del entregable asociado.
+
+3. ANÁLISIS DE CARGA DE TRABAJO
+  ¿Hay fases en las que la carga de trabajo se concentra excesivamente?
+  ¿El cronograma es realista con el equipo disponible?
+  Señala los momentos críticos que podrían convertirse en cuellos de botella.
+
+4. PLAN DE CONTINGENCIA
+  ¿Qué retrasos son más probables en este tipo de proyecto? (Ej.: reclutamiento lento, retrasos en aprobación ética, bajas en el equipo...)
+  ¿Cómo se podría ajustar el cronograma si se produce un retraso de 2-3 meses en alguna fase clave?
+
+5. RECOMENDACIONES
+  ¿Hay algún aspecto del cronograma que convenga revisar o anticipar para minimizar riesgos?",
+Metodología,Asesor en selección de diseño metodológico,"Este prompt ayuda a seleccionar el diseño de investigación más adecuado para una pregunta de investigación concreta en Terapia Ocupacional. Compara las opciones disponibles (diseños cuantitativos, cualitativos y mixtos), explica las ventajas e inconvenientes de cada uno en el contexto específico y recomienda el diseño más apropiado según los recursos, la pregunta y los objetivos del grupo.","Describe tu pregunta de investigación y el contexto del estudio. La IA te orientará sobre las opciones metodológicas disponibles con sus pros y contras, y te hará una recomendación justificada.","Actúa como un experto en metodología de la investigación en ciencias de la salud con especialización en Terapia Ocupacional, capaz de asesorar sobre diseños cuantitativos, cualitativos y mixtos.
+
+Necesito asesoramiento para elegir el diseño de investigación más adecuado para mi proyecto:
+
+PREGUNTA DE INVESTIGACIÓN:
+[Escribe aquí tu pregunta de investigación. Si aún no está formulada, describe qué quieres saber]
+
+TEMA / PROBLEMA:
+[Descripción breve del problema o fenómeno que quieres estudiar]
+
+OBJETIVO PRINCIPAL:
+[Ej.: explorar la experiencia vivida / evaluar la eficacia de una intervención / describir la prevalencia / comprender los factores asociados / desarrollar un instrumento...]
+
+POBLACIÓN DE INTERÉS:
+[Describe a quiénes vas a estudiar]
+
+CONTEXTO DEL ESTUDIO:
+[Entorno, país, sistema de salud, accesibilidad a la muestra...]
+
+RECURSOS DISPONIBLES:
+- Equipo investigador: [número de personas y su formación]
+- Financiación disponible: [Ej.: sin financiación / proyecto menor / proyecto con financiación...]
+- Acceso a participantes: [Fácil / Moderado / Difícil – explica brevemente]
+- Tiempo disponible: [Ej.: 12 meses / 24 meses...]
+- Experiencia del equipo en metodología: [Cuantitativa / Cualitativa / Ambas / Básica]
+
+RESTRICCIONES O PREFERENCIAS (si las hay):
+[Ej.: no podemos hacer un ECA por razones éticas / preferimos metodología cualitativa / necesitamos un diseño publicable en revistas de alto impacto...]
+
+¿EXISTE EVIDENCIA PREVIA SOBRE ESTE TEMA?
+[Mucha / Moderada / Poca / Casi ninguna]
+
+Por favor, realiza lo siguiente:
+
+1. ANÁLISIS DE LA PREGUNTA
+  ¿Qué tipo de pregunta es? (de eficacia, de experiencia, de prevalencia, de factores predictores, de validación de instrumentos, de implementación...)
+  ¿Qué tipo de diseño responde mejor a este tipo de pregunta?
+
+2. OPCIONES DE DISEÑO DISPONIBLES
+  Para cada opción viable, explica:
+  - Nombre del diseño
+  - Descripción breve
+  - Ventajas para este contexto específico
+  - Limitaciones o dificultades en este contexto
+  - Viabilidad con los recursos disponibles (Alta / Moderada / Baja)
+
+3. RECOMENDACIÓN PRINCIPAL
+  ¿Qué diseño recomiendas y por qué?
+  ¿Hay alguna variante o adaptación que mejore la adecuación del diseño a tus recursos?
+
+4. ALTERNATIVAS SECUNDARIAS
+  Si el diseño recomendado no fuera viable, ¿cuáles serían las siguientes opciones?
+
+5. ALERTAS Y CONSIDERACIONES ESPECIALES
+  ¿Hay alguna consideración ética, legal o metodológica específica que deba tenerse en cuenta?
+  ¿Existe alguna guía de reporte específica que deberías seguir con el diseño recomendado?
+
+6. PRÓXIMOS PASOS
+  ¿Cuáles serían los 3-5 primeros pasos concretos para avanzar con el diseño recomendado?",
+Metodología,Constructor de instrumentos de recogida de datos,"Este prompt ayuda a diseñar instrumentos de recogida de datos para investigación en Terapia Ocupacional: cuestionarios ad hoc, escalas de Likert, guiones de entrevista semiestructurada, guiones de grupos focales, fichas de observación y formularios de recogida de datos clínicos. Los instrumentos generados están basados en los principios de la psicometría y la investigación cualitativa, y están orientados a la validez de contenido y la comprensión de los participantes.","Indica el tipo de instrumento que necesitas y la información de contexto. La IA generará un borrador del instrumento que podrás revisar, adaptar y someter a validación con expertos y participantes.","Actúa como un experto en psicometría y diseño de instrumentos de investigación en ciencias de la salud y Terapia Ocupacional.
+
+Necesito que diseñes un cuestionario / escala de medida para mi investigación:
+
+INFORMACIÓN DEL INSTRUMENTO:
+- Objetivo del instrumento: [Ej.: medir el nivel de participación ocupacional percibida por adultos mayores en centros de día]
+- Constructo(s) a medir: [Ej.: participación, satisfacción con el desempeño ocupacional, autonomía...]
+- Población destinataria: [Ej.: adultos mayores con deterioro cognitivo leve, 65-85 años]
+- Contexto de aplicación: [Ej.: aplicado por el terapeuta ocupacional en entrevista / autoaplicado]
+- Número aproximado de ítems deseado: [Ej.: 10-20 ítems]
+- Tipo de escala de respuesta: [Ej.: Likert 1-5 / Sí/No / frecuencia / intensidad...]
+- Tiempo máximo de cumplimentación: [Ej.: 10-15 minutos]
+- Modelo teórico de referencia (si lo hay): [Ej.: MOHO / CMOP-E / ninguno específico]
+
+Por favor:
+1. Diseña el cuestionario con los ítems organizados por dimensiones o dominios.
+2. Asegúrate de que el lenguaje es claro, sencillo y adecuado para la población indicada.
+3. Incluye instrucciones de cumplimentación al inicio.
+4. Propón el sistema de puntuación e interpretación de los resultados.
+5. Señala qué ítems son inversos (si los hay).
+6. Al final, sugiere los pasos para validar el instrumento (validez de contenido, pilotaje, análisis factorial...).",
+Metodología,Diseñador de protocolos de investigación,"Este prompt ayuda a diseñar el protocolo completo de un proyecto de investigación en Terapia Ocupacional. Genera la estructura y el contenido de las secciones fundamentales de un protocolo, desde la justificación y los objetivos hasta el análisis de datos, las consideraciones éticas y el plan de difusión.",Proporciona la información disponible sobre tu proyecto (puede ser solo una idea inicial o un borrador más desarrollado). La IA generará un protocolo estructurado que podrás desarrollar y completar.,"Actúa como un metodólogo experto en diseño de investigación en ciencias de la salud y Terapia Ocupacional.
+
+Necesito que me ayudes a diseñar el protocolo de mi proyecto de investigación con la siguiente información de partida:
+
+INFORMACIÓN INICIAL DEL PROYECTO:
+
+Título provisional: [Escribe aquí]
+Tema o problema de investigación: [Descripción breve del problema que quieres estudiar]
+Pregunta de investigación: [Si ya la tienes formulada, escríbela. Si no, describe qué quieres saber]
+Población de interés: [Ej.: adultos mayores con enfermedad de Parkinson en entorno comunitario]
+Contexto del estudio: [Ej.: centros de día, hospitales, domicilio, comunidad, entorno escolar...]
+Recursos disponibles: [Ej.: equipo de 4 personas, financiación estimada, acceso a muestra...]
+Plazo estimado: [Ej.: 12 meses, 24 meses...]
+Tipo de estudio que te interesa (si lo sabes): [Ej.: cuantitativo, cualitativo, mixto, revisión...]
+
+Por favor, desarrolla un protocolo de investigación que incluya las siguientes secciones:
+
+1. TÍTULO DEFINITIVO PROPUESTO
+  (con las características de un buen título científico: descriptivo, conciso, que incluya diseño y población)
+
+2. RESUMEN / ABSTRACT DEL PROTOCOLO (150-200 palabras)
+
+3. ANTECEDENTES Y JUSTIFICACIÓN
+  - Estado actual de la evidencia sobre el tema
+  - Vacíos de conocimiento que justifican el estudio
+  - Relevancia para la Terapia Ocupacional y para la práctica clínica
+
+4. OBJETIVOS
+  - Objetivo general
+  - Objetivos específicos (2-4, formulados de forma operativa y medible)
+
+5. HIPÓTESIS (si el diseño es cuantitativo)
+  O PREGUNTAS DE INVESTIGACIÓN ESPECÍFICAS (si el diseño es cualitativo)
+
+6. DISEÑO METODOLÓGICO
+  - Tipo de diseño y justificación de su elección
+  - Paradigma epistemológico (si aplica)
+  - Marco teórico o modelo conceptual de referencia
+
+7. PARTICIPANTES
+  - Criterios de inclusión y exclusión
+  - Tipo de muestreo y justificación
+  - Tamaño muestral (y cálculo si es cuantitativo / justificación si es cualitativo)
+  - Procedimiento de reclutamiento
+
+8. INTERVENCIÓN O PROCEDIMIENTO (si aplica)
+  - Descripción detallada de la intervención (siguiendo el modelo TIDieR si es ensayo)
+  - Grupo control o comparación (si aplica)
+
+9. VARIABLES Y OUTCOMES
+  - Variable de resultado principal e instrumento de medida (validez y fiabilidad)
+  - Variables secundarias e instrumentos
+  - Variables sociodemográficas y de control
+
+10. RECOGIDA DE DATOS
+  - Procedimiento y momentos de recogida
+  - Formación de los evaluadores / garantía de calidad de los datos
+
+11. ANÁLISIS DE DATOS
+  - Análisis estadístico previsto (con software) O
+  - Análisis cualitativo previsto (enfoque, estrategia analítica)
+
+12. CONSIDERACIONES ÉTICAS
+  - Aprobación del comité de ética (procedimiento)
+  - Consentimiento informado
+  - Confidencialidad y protección de datos (RGPD si es en España/UE)
+  - Gestión de posibles riesgos para los participantes
+
+13. CRONOGRAMA TENTATIVO
+  (tabla de fases con duración estimada de cada una)
+
+14. PRESUPUESTO ESTIMADO (por partidas principales)
+
+15. PLAN DE DIFUSIÓN
+  - Revistas objetivo para publicación
+  - Congresos / eventos de divulgación
+
+Adapta el nivel de detalle al tipo de estudio y señala con [PENDIENTE] los apartados que necesito completar con más información.",
+Metodología,Evaluador ético del uso de IA en investigación,"Este prompt evalúa las implicaciones éticas del uso de inteligencia artificial en un proyecto de investigación específico, desde la perspectiva de los principios bioéticos clásicos (autonomía, beneficencia, no maleficencia, justicia) y de los marcos emergentes de ética en IA (equidad, transparencia, responsabilidad, privacidad). Está orientado a investigación en Terapia Ocupacional con participantes humanos.","Describe tu proyecto de investigación y el uso que planeas hacer de herramientas de IA. La IA realizará un análisis ético estructurado y te indicará los riesgos, salvaguardas necesarias y cómo documentarlos adecuadamente.","Actúa como un experto en ética de la investigación y ética de la inteligencia artificial, con conocimiento de los marcos regulatorios aplicables en investigación biomédica y en ciencias de la salud en España y la Unión Europea.
+
+Necesito que evalúes las implicaciones éticas del uso de IA en mi proyecto de investigación:
+
+DESCRIPCIÓN DEL PROYECTO:
+- Tipo de estudio: [Ej.: estudio cualitativo / ECA / revisión sistemática...]
+- Población participante: [Descripción de los participantes: edad, diagnóstico, vulnerabilidad...]
+- Tipo de datos que se recogen: [Ej.: datos clínicos, grabaciones de audio/video, imágenes, datos de wearables, datos de historia clínica...]
+- ¿Los datos son anonimizados, pseudoanonimizados o identificados?: [...]
+
+USO DE IA EN EL PROYECTO:
+[Describe exactamente cómo y para qué vas a usar herramientas de IA:]
+- Herramienta(s) de IA que planeas usar: [Ej.: ChatGPT, Claude, ATLAS.ti con IA, Rayyan...]
+- Fase(s) en la que se usará: [Búsqueda / Cribado / Análisis de datos / Redacción / Otra...]
+- ¿Se procesarán datos de participantes con la IA?: [Sí / No / Parcialmente]
+- ¿Dónde se aloja la IA? ¿En servidores externos (EE.UU., UE) o locales?: [...]
+- ¿El comité de ética ya está informado del uso de IA?: [Sí / No / No lo sé]
+
+Por favor, realiza la evaluación ética en los siguientes bloques:
+
+1. PRIVACIDAD Y PROTECCIÓN DE DATOS (RGPD)
+  - ¿El uso de IA es compatible con el RGPD (Reglamento General de Protección de Datos)?
+  - ¿Se transfieren datos personales o clínicos de participantes a servidores externos? ¿Está permitido?
+  - ¿Cuál sería el proceso de anonimización / pseudoanonimización necesario antes de usar IA?
+  - ¿Es necesario incluir el uso de IA en el consentimiento informado de los participantes?
+
+2. AUTONOMÍA Y CONSENTIMIENTO INFORMADO
+  - ¿Deben los participantes ser informados del uso de IA en el análisis de sus datos? ¿Cómo?
+  - ¿El formulario de consentimiento actual cubre el uso de IA? ¿Qué debe añadirse?
+  - ¿El uso de IA podría percibirse como una intrusión en la privacidad de los participantes?
+
+3. SESGO ALGORÍTMICO Y EQUIDAD
+  - ¿La herramienta de IA elegida puede introducir sesgos en el análisis (por género, etnia, edad, discapacidad)?
+  - ¿Las poblaciones vulnerables o minoritarias están adecuadamente representadas en los datos de entrenamiento de la IA?
+  - ¿El sesgo de la IA podría afectar a las conclusiones del estudio y a su aplicabilidad clínica en TO?
+
+4. TRANSPARENCIA Y RESPONSABILIDAD
+  - ¿Cómo se documentará el uso de IA para garantizar la reproducibilidad del estudio?
+  - ¿Quién es responsable de verificar los resultados generados por la IA?
+  - ¿Está claro en el manuscrito qué partes fueron asistidas por IA y cuáles no?
+
+5. BENEFICENCIA Y NO MALEFICENCIA
+  - ¿El uso de IA en este contexto genera algún riesgo para los participantes (Ej.: exposición de datos, diagnóstico erróneo...)?
+  - ¿El uso de IA mejora la calidad del estudio o podría comprometer su integridad?
+
+6. JUSTICIA
+  - ¿El uso de IA favorece o perjudica la inclusión de poblaciones habitualmente subrepresentadas?
+  - ¿Los beneficios del estudio llegará a las personas más vulnerables o solo a las que tienen mayor acceso a la tecnología?
+
+7. CONSIDERACIONES REGULATORIAS
+  - ¿Es necesario notificar el uso de IA al comité de ética de la institución?
+  - ¿Existen normativas específicas aplicables (Ley de IA de la UE, RGPD, normativa nacional)?
+  - ¿Qué cambios deberías hacer en el protocolo o en el consentimiento informado?
+
+8. VALORACIÓN GLOBAL Y RECOMENDACIONES
+  - Nivel de riesgo ético del uso de IA en este proyecto: Bajo / Moderado / Alto
+  - Principales riesgos éticos identificados (top 3)
+  - Medidas de salvaguarda recomendadas
+  - ¿El uso de IA previsto es éticamente justificable en este contexto? ¿Por qué?",
+Metodología,Integrador de herramientas de IA en protocolos metodológicos,"Este prompt ayuda a identificar y describir cómo incorporar herramientas de inteligencia artificial de forma ética, transparente y metodológicamente rigurosa en diferentes fases de un protocolo de investigación en Terapia Ocupacional. No se limita a la redacción: considera el uso de IA en búsqueda bibliográfica, selección de estudios, análisis de datos, procesamiento de texto e imagen, y difusión.","Describe tu proyecto de investigación y las fases en las que estás considerando incorporar IA. La IA te orientará sobre las herramientas más adecuadas, cómo integrarlas correctamente y qué aspectos éticos y metodológicos debes contemplar.","Actúa como un experto en metodología de la investigación con conocimiento actualizado sobre el uso de herramientas de inteligencia artificial en investigación científica en ciencias de la salud.
+
+Necesito asesoramiento para integrar herramientas de IA en el siguiente proyecto de investigación:
+
+DESCRIPCIÓN DEL PROYECTO:
+- Tipo de estudio: [Ej.: revisión sistemática / ECA / estudio cualitativo / encuesta...]
+- Tema: [Descripción breve]
+- Objetivo principal: [...]
+- Fases del proyecto: [Búsqueda / Selección / Recogida de datos / Análisis / Redacción / Difusión]
+
+FASES EN LAS QUE QUIERO USAR IA (marca todas las que apliquen):
+
+[ ] Búsqueda y gestión bibliográfica
+[ ] Selección de estudios (cribado de títulos y abstracts)
+[ ] Extracción de datos de artículos
+[ ] Análisis cuantitativo de datos
+[ ] Análisis cualitativo (codificación, análisis temático)
+[ ] Procesamiento de imágenes clínicas o de evaluación
+[ ] Redacción y revisión del manuscrito
+[ ] Traducción de documentos
+[ ] Difusión y comunicación científica
+[ ] Otra: [especifica]
+
+Por favor, para cada fase seleccionada, proporciona:
+
+1. HERRAMIENTAS DE IA DISPONIBLES Y RECOMENDADAS
+  - Nombre de la herramienta
+  - Descripción de su función en esta fase
+  - Ventajas y limitaciones conocidas
+  - Nivel de validación científica de la herramienta (si existe)
+
+2. CÓMO INTEGRARLA EN EL PROTOCOLO
+  - Paso a paso de cómo usar la IA en esta fase
+  - Cómo combinarla con el trabajo humano (qué hace la IA, qué hace el investigador)
+  - Cómo documentar su uso de forma reproducible y transparente
+
+3. CONSIDERACIONES METODOLÓGICAS
+  - ¿Cómo afecta el uso de esta IA a la validez del estudio?
+  - ¿Qué controles de calidad son necesarios para verificar los resultados de la IA?
+  - ¿Cómo se justifica metodológicamente su uso en la sección de métodos del artículo?
+
+4. CONSIDERACIONES ÉTICAS Y DE PRIVACIDAD
+  - ¿Se procesan datos de participantes? ¿Se cumple con el RGPD?
+  - ¿La herramienta cumple con los estándares de privacidad requeridos?
+  - ¿Hay riesgo de sesgo algorítmico en esta aplicación?
+
+5. CÓMO DECLARAR EL USO DE IA EN EL MANUSCRITO
+  - Redacta una descripción breve para la sección de Métodos.
+  - Indica qué declaraciones adicionales exige la revista (si se conoce).
+
+Al final, proporciona un resumen integrado de cómo quedaría el uso de IA en el protocolo completo, señalando las fases con mayor riesgo metodológico o ético.",

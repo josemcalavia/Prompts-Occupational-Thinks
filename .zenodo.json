@@ -1,0 +1,67 @@
+{
+  "title": "Biblioteca de prompts de investigación del grupo Occupational Thinks",
+  "description": "<p>Biblioteca abierta de 35 prompts de IA generativa para la investigación en Terapia Ocupacional y ciencias de la salud, elaborada por el grupo de investigación Occupational Thinks (CSEU La Salle, adscrito a la UAM). Cada prompt incluye propósito, instrucciones de uso, texto completo y notas, en 7 categorías: análisis y síntesis; búsqueda y gestión bibliográfica; difusión y transferencia; escritura y redacción académica; específicos de terapia ocupacional; gestión del grupo de investigación; metodología.</p>",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Cuesta García, César",
+      "affiliation": "CSEU La Salle (adscrito a la UAM)"
+    },
+    {
+      "name": "Rodríguez Ruiz, Elva",
+      "affiliation": "CSEU La Salle (adscrito a la UAM)"
+    },
+    {
+      "name": "Carpena Niño, María Gracia",
+      "affiliation": "CSEU La Salle (adscrito a la UAM)"
+    },
+    {
+      "name": "Gómez Martínez, Miguel",
+      "affiliation": "CSEU La Salle (adscrito a la UAM)"
+    },
+    {
+      "name": "Matesanz García, Beatriz",
+      "affiliation": "CSEU La Salle (adscrito a la UAM)"
+    },
+    {
+      "name": "Rincón Aguilera, Montserrat",
+      "affiliation": "CSEU La Salle (adscrito a la UAM)"
+    },
+    {
+      "name": "Rebalderia, Nuria",
+      "affiliation": "CSEU La Salle (adscrito a la UAM)"
+    },
+    {
+      "name": "Calavia Balduz, José María",
+      "affiliation": "CSEU La Salle (adscrito a la UAM)",
+      "orcid": "0009-0001-7105-2022"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Grupo de investigación Occupational Thinks",
+      "type": "ResearchGroup",
+      "affiliation": "CSEU La Salle (adscrito a la UAM)"
+    }
+  ],
+  "license": "cc-by-nc-sa-4.0",
+  "keywords": [
+    "terapia ocupacional",
+    "occupational therapy",
+    "investigación",
+    "research",
+    "inteligencia artificial generativa",
+    "generative AI",
+    "prompts",
+    "metodología de la investigación"
+  ],
+  "language": "spa",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://josemcalavia.github.io/Prompts-Occupational-Thinks/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ]
+}
