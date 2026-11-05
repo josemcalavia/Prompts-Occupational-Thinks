@@ -1,5 +1,7 @@
 # Biblioteca de prompts de investigación del grupo Occupational Thinks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23991388.svg)](https://doi.org/10.5281/zenodo.23991388)
+
 Biblioteca abierta de 35 prompts de IA generativa para la investigación en Terapia Ocupacional y ciencias de la salud, elaborada por el grupo de investigación Occupational Thinks (CSEU La Salle, adscrito a la UAM). Cada prompt incluye propósito, instrucciones de uso, texto completo y notas, en 7 categorías: análisis y síntesis; búsqueda y gestión bibliográfica; difusión y transferencia; escritura y redacción académica; específicos de terapia ocupacional; gestión del grupo de investigación; metodología.
 
 ## Contenido
@@ -23,7 +25,7 @@ No introduzcas datos personales ni identificativos de participantes en una herra
 
 ## Cómo citar
 
-Cuesta García, César; Rodríguez Ruiz, Elva; Carpena Niño, María Gracia; Gómez Martínez, Miguel; Matesanz García, Beatriz; Rincón Aguilera, Montserrat; Rebaldería, Nuria; Calavia Balduz, José María. (2026). *Biblioteca de prompts de investigación del grupo Occupational Thinks* (versión 1.0.0) [Conjunto de datos]. Grupo de investigación Occupational Thinks, CSEU La Salle. Zenodo.
+Cuesta García, César; Rodríguez Ruiz, Elva; Carpena Niño, María Gracia; Gómez Martínez, Miguel; Matesanz García, Beatriz; Rincón Aguilera, Montserrat; Rebaldería, Nuria; Calavia Balduz, José María. (2026). *Biblioteca de prompts de investigación del grupo Occupational Thinks* (versión 1.0.0) [Conjunto de datos]. Grupo de investigación Occupational Thinks, CSEU La Salle. Zenodo. https://doi.org/10.5281/zenodo.23991388
 
 ## Licencia
 
