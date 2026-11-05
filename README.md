@@ -23,7 +23,7 @@ No introduzcas datos personales ni identificativos de participantes en una herra
 
 ## Cómo citar
 
-Cuesta García, César; Rodríguez Ruiz, Elva; Carpena Niño, María Gracia; Gómez Martínez, Miguel; Matesanz García, Beatriz; Rincón Aguilera, Montserrat; Rebalderia, Nuria; Calavia Balduz, José María. (2026). *Biblioteca de prompts de investigación del grupo Occupational Thinks* (versión 1.0.0) [Conjunto de datos]. Grupo de investigación Occupational Thinks, CSEU La Salle. Zenodo.
+Cuesta García, César; Rodríguez Ruiz, Elva; Carpena Niño, María Gracia; Gómez Martínez, Miguel; Matesanz García, Beatriz; Rincón Aguilera, Montserrat; Rebaldería, Nuria; Calavia Balduz, José María. (2026). *Biblioteca de prompts de investigación del grupo Occupational Thinks* (versión 1.0.0) [Conjunto de datos]. Grupo de investigación Occupational Thinks, CSEU La Salle. Zenodo.
 
 ## Licencia
 
